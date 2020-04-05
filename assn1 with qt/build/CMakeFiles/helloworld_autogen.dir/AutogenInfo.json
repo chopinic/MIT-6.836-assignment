@@ -1,0 +1,84 @@
+{
+	"BUILD_DIR" : "/Users/yangguang/archive/cmakeTest/qtCMake/build/helloworld_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/yangguang/archive/cmakeTest/qtCMake/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/yangguang/archive/cmakeTest/qtCMake/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/yangguang/archive/cmakeTest/qtCMake",
+	"CMAKE_EXECUTABLE" : "/Applications/CMake.app/Contents/bin/cmake",
+	"CMAKE_SOURCE_DIR" : "/Users/yangguang/archive/cmakeTest/qtCMake",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/Users/yangguang/archive/cmakeTest/qtCMake/glwidget.h",
+			"MU",
+			"EWIEGA46WW/moc_glwidget.cpp"
+		],
+		[
+			"/Users/yangguang/archive/cmakeTest/qtCMake/mainwindow.h",
+			"MU",
+			"EWIEGA46WW/moc_mainwindow.cpp"
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/Users/yangguang/archive/cmakeTest/qtCMake/build/helloworld_autogen/include",
+	"MOC_COMPILATION_FILE" : "/Users/yangguang/archive/cmakeTest/qtCMake/build/helloworld_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_OPENGL_LIB", "QT_WIDGETS_LIB" ],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/Users/yangguang/Qt5.9.0/5.9/clang_64/lib/QtWidgets.framework",
+		"/Users/yangguang/Qt5.9.0/5.9/clang_64/lib/QtWidgets.framework/Headers",
+		"/Users/yangguang/Qt5.9.0/5.9/clang_64/lib/QtGui.framework",
+		"/Users/yangguang/Qt5.9.0/5.9/clang_64/lib/QtGui.framework/Headers",
+		"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework/Headers",
+		"/Users/yangguang/Qt5.9.0/5.9/clang_64/lib/QtCore.framework",
+		"/Users/yangguang/Qt5.9.0/5.9/clang_64/lib/QtCore.framework/Headers",
+		"/Users/yangguang/Qt5.9.0/5.9/clang_64/mkspecs/macx-clang",
+		"/Users/yangguang/Qt5.9.0/5.9/clang_64/lib/QtOpenGL.framework",
+		"/Users/yangguang/Qt5.9.0/5.9/clang_64/lib/QtOpenGL.framework/Headers",
+		"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1",
+		"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include",
+		"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+		"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : true,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/Applications/CMake.app/Contents/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/Users/yangguang/archive/cmakeTest/qtCMake/build/helloworld_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "/Users/yangguang/archive/cmakeTest/qtCMake/build/CMakeFiles/helloworld_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/Users/yangguang/Qt5.9.0/5.9/clang_64/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/Users/yangguang/Qt5.9.0/5.9/clang_64/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 9,
+	"SETTINGS_FILE" : "/Users/yangguang/archive/cmakeTest/qtCMake/build/CMakeFiles/helloworld_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[ "/Users/yangguang/archive/cmakeTest/qtCMake/glwidget.cpp", "MU" ],
+		[ "/Users/yangguang/archive/cmakeTest/qtCMake/main.cpp", "MU" ],
+		[ "/Users/yangguang/archive/cmakeTest/qtCMake/mainwindow.cpp", "MU" ]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

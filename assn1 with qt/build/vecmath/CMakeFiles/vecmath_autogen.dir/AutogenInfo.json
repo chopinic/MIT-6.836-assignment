@@ -1,0 +1,127 @@
+{
+	"BUILD_DIR" : "/Users/yangguang/archive/cmakeTest/qtCMake/build/vecmath/vecmath_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/yangguang/archive/cmakeTest/qtCMake/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/yangguang/archive/cmakeTest/qtCMake/build/vecmath",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/yangguang/archive/cmakeTest/qtCMake/vecmath",
+	"CMAKE_EXECUTABLE" : "/Applications/CMake.app/Contents/bin/cmake",
+	"CMAKE_SOURCE_DIR" : "/Users/yangguang/archive/cmakeTest/qtCMake",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/Users/yangguang/archive/cmakeTest/qtCMake/vecmath/include/Matrix2f.h",
+			"MU",
+			"6YEA5652QU/moc_Matrix2f.cpp"
+		],
+		[
+			"/Users/yangguang/archive/cmakeTest/qtCMake/vecmath/include/Matrix3f.h",
+			"MU",
+			"6YEA5652QU/moc_Matrix3f.cpp"
+		],
+		[
+			"/Users/yangguang/archive/cmakeTest/qtCMake/vecmath/include/Matrix4f.h",
+			"MU",
+			"6YEA5652QU/moc_Matrix4f.cpp"
+		],
+		[
+			"/Users/yangguang/archive/cmakeTest/qtCMake/vecmath/include/Quat4f.h",
+			"MU",
+			"6YEA5652QU/moc_Quat4f.cpp"
+		],
+		[
+			"/Users/yangguang/archive/cmakeTest/qtCMake/vecmath/include/Vector2f.h",
+			"MU",
+			"6YEA5652QU/moc_Vector2f.cpp"
+		],
+		[
+			"/Users/yangguang/archive/cmakeTest/qtCMake/vecmath/include/Vector3f.h",
+			"MU",
+			"6YEA5652QU/moc_Vector3f.cpp"
+		],
+		[
+			"/Users/yangguang/archive/cmakeTest/qtCMake/vecmath/include/Vector4f.h",
+			"MU",
+			"6YEA5652QU/moc_Vector4f.cpp"
+		],
+		[
+			"/Users/yangguang/archive/cmakeTest/qtCMake/vecmath/include/vecmath.h",
+			"MU",
+			"6YEA5652QU/moc_vecmath.cpp"
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/Users/yangguang/archive/cmakeTest/qtCMake/build/vecmath/vecmath_autogen/include",
+	"MOC_COMPILATION_FILE" : "/Users/yangguang/archive/cmakeTest/qtCMake/build/vecmath/vecmath_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/Users/yangguang/archive/cmakeTest/qtCMake/vecmath/include",
+		"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1",
+		"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include",
+		"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+		"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : true,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/Applications/CMake.app/Contents/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/Users/yangguang/archive/cmakeTest/qtCMake/build/vecmath/vecmath_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "/Users/yangguang/archive/cmakeTest/qtCMake/build/vecmath/CMakeFiles/vecmath_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/Users/yangguang/Qt5.9.0/5.9/clang_64/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/Users/yangguang/Qt5.9.0/5.9/clang_64/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 9,
+	"SETTINGS_FILE" : "/Users/yangguang/archive/cmakeTest/qtCMake/build/vecmath/CMakeFiles/vecmath_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/Users/yangguang/archive/cmakeTest/qtCMake/vecmath/Matrix2f.cpp",
+			"MU"
+		],
+		[
+			"/Users/yangguang/archive/cmakeTest/qtCMake/vecmath/Matrix3f.cpp",
+			"MU"
+		],
+		[
+			"/Users/yangguang/archive/cmakeTest/qtCMake/vecmath/Matrix4f.cpp",
+			"MU"
+		],
+		[ "/Users/yangguang/archive/cmakeTest/qtCMake/vecmath/Quat4f.cpp", "MU" ],
+		[
+			"/Users/yangguang/archive/cmakeTest/qtCMake/vecmath/Vector2f.cpp",
+			"MU"
+		],
+		[
+			"/Users/yangguang/archive/cmakeTest/qtCMake/vecmath/Vector3f.cpp",
+			"MU"
+		],
+		[
+			"/Users/yangguang/archive/cmakeTest/qtCMake/vecmath/Vector4f.cpp",
+			"MU"
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

@@ -1,0 +1,137 @@
+[
+{
+  "directory": "/Users/yangguang/归档/图形学/assn1/starter1/build",
+  "command": "/usr/bin/clang++   -I/Users/yangguang/归档/图形学/assn1/starter1/vecmath/include -I/Users/yangguang/归档/图形学/assn1/starter1/glfw/include   --std=gnu++11 -g -Wall -Wno-unused-variable -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/a1.dir/src/main.cpp.o -c /Users/yangguang/归档/图形学/assn1/starter1/src/main.cpp",
+  "file": "/Users/yangguang/归档/图形学/assn1/starter1/src/main.cpp"
+},
+{
+  "directory": "/Users/yangguang/归档/图形学/assn1/starter1/build",
+  "command": "/usr/bin/clang++   -I/Users/yangguang/归档/图形学/assn1/starter1/vecmath/include -I/Users/yangguang/归档/图形学/assn1/starter1/glfw/include   --std=gnu++11 -g -Wall -Wno-unused-variable -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/a1.dir/src/camera.cpp.o -c /Users/yangguang/归档/图形学/assn1/starter1/src/camera.cpp",
+  "file": "/Users/yangguang/归档/图形学/assn1/starter1/src/camera.cpp"
+},
+{
+  "directory": "/Users/yangguang/归档/图形学/assn1/starter1/build",
+  "command": "/usr/bin/clang++   -I/Users/yangguang/归档/图形学/assn1/starter1/vecmath/include -I/Users/yangguang/归档/图形学/assn1/starter1/glfw/include   --std=gnu++11 -g -Wall -Wno-unused-variable -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/a1.dir/src/curve.cpp.o -c /Users/yangguang/归档/图形学/assn1/starter1/src/curve.cpp",
+  "file": "/Users/yangguang/归档/图形学/assn1/starter1/src/curve.cpp"
+},
+{
+  "directory": "/Users/yangguang/归档/图形学/assn1/starter1/build",
+  "command": "/usr/bin/clang++   -I/Users/yangguang/归档/图形学/assn1/starter1/vecmath/include -I/Users/yangguang/归档/图形学/assn1/starter1/glfw/include   --std=gnu++11 -g -Wall -Wno-unused-variable -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/a1.dir/src/parse.cpp.o -c /Users/yangguang/归档/图形学/assn1/starter1/src/parse.cpp",
+  "file": "/Users/yangguang/归档/图形学/assn1/starter1/src/parse.cpp"
+},
+{
+  "directory": "/Users/yangguang/归档/图形学/assn1/starter1/build",
+  "command": "/usr/bin/clang++   -I/Users/yangguang/归档/图形学/assn1/starter1/vecmath/include -I/Users/yangguang/归档/图形学/assn1/starter1/glfw/include   --std=gnu++11 -g -Wall -Wno-unused-variable -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/a1.dir/src/starter1_util.cpp.o -c /Users/yangguang/归档/图形学/assn1/starter1/src/starter1_util.cpp",
+  "file": "/Users/yangguang/归档/图形学/assn1/starter1/src/starter1_util.cpp"
+},
+{
+  "directory": "/Users/yangguang/归档/图形学/assn1/starter1/build",
+  "command": "/usr/bin/clang++   -I/Users/yangguang/归档/图形学/assn1/starter1/vecmath/include -I/Users/yangguang/归档/图形学/assn1/starter1/glfw/include   --std=gnu++11 -g -Wall -Wno-unused-variable -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/a1.dir/src/surf.cpp.o -c /Users/yangguang/归档/图形学/assn1/starter1/src/surf.cpp",
+  "file": "/Users/yangguang/归档/图形学/assn1/starter1/src/surf.cpp"
+},
+{
+  "directory": "/Users/yangguang/归档/图形学/assn1/starter1/build",
+  "command": "/usr/bin/clang++   -I/Users/yangguang/归档/图形学/assn1/starter1/vecmath/include -I/Users/yangguang/归档/图形学/assn1/starter1/glfw/include   --std=gnu++11 -g -Wall -Wno-unused-variable -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/a1.dir/src/vertexrecorder.cpp.o -c /Users/yangguang/归档/图形学/assn1/starter1/src/vertexrecorder.cpp",
+  "file": "/Users/yangguang/归档/图形学/assn1/starter1/src/vertexrecorder.cpp"
+},
+{
+  "directory": "/Users/yangguang/归档/图形学/assn1/starter1/build/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/yangguang/归档/图形学/assn1/starter1/glfw/include -I/Users/yangguang/归档/图形学/assn1/starter1/glfw/src -I/Users/yangguang/归档/图形学/assn1/starter1/build/glfw/src  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIC   -Wall -o CMakeFiles/glfw.dir/context.c.o   -c /Users/yangguang/归档/图形学/assn1/starter1/glfw/src/context.c",
+  "file": "/Users/yangguang/归档/图形学/assn1/starter1/glfw/src/context.c"
+},
+{
+  "directory": "/Users/yangguang/归档/图形学/assn1/starter1/build/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/yangguang/归档/图形学/assn1/starter1/glfw/include -I/Users/yangguang/归档/图形学/assn1/starter1/glfw/src -I/Users/yangguang/归档/图形学/assn1/starter1/build/glfw/src  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIC   -Wall -o CMakeFiles/glfw.dir/init.c.o   -c /Users/yangguang/归档/图形学/assn1/starter1/glfw/src/init.c",
+  "file": "/Users/yangguang/归档/图形学/assn1/starter1/glfw/src/init.c"
+},
+{
+  "directory": "/Users/yangguang/归档/图形学/assn1/starter1/build/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/yangguang/归档/图形学/assn1/starter1/glfw/include -I/Users/yangguang/归档/图形学/assn1/starter1/glfw/src -I/Users/yangguang/归档/图形学/assn1/starter1/build/glfw/src  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIC   -Wall -o CMakeFiles/glfw.dir/input.c.o   -c /Users/yangguang/归档/图形学/assn1/starter1/glfw/src/input.c",
+  "file": "/Users/yangguang/归档/图形学/assn1/starter1/glfw/src/input.c"
+},
+{
+  "directory": "/Users/yangguang/归档/图形学/assn1/starter1/build/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/yangguang/归档/图形学/assn1/starter1/glfw/include -I/Users/yangguang/归档/图形学/assn1/starter1/glfw/src -I/Users/yangguang/归档/图形学/assn1/starter1/build/glfw/src  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIC   -Wall -o CMakeFiles/glfw.dir/monitor.c.o   -c /Users/yangguang/归档/图形学/assn1/starter1/glfw/src/monitor.c",
+  "file": "/Users/yangguang/归档/图形学/assn1/starter1/glfw/src/monitor.c"
+},
+{
+  "directory": "/Users/yangguang/归档/图形学/assn1/starter1/build/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/yangguang/归档/图形学/assn1/starter1/glfw/include -I/Users/yangguang/归档/图形学/assn1/starter1/glfw/src -I/Users/yangguang/归档/图形学/assn1/starter1/build/glfw/src  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIC   -Wall -o CMakeFiles/glfw.dir/vulkan.c.o   -c /Users/yangguang/归档/图形学/assn1/starter1/glfw/src/vulkan.c",
+  "file": "/Users/yangguang/归档/图形学/assn1/starter1/glfw/src/vulkan.c"
+},
+{
+  "directory": "/Users/yangguang/归档/图形学/assn1/starter1/build/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/yangguang/归档/图形学/assn1/starter1/glfw/include -I/Users/yangguang/归档/图形学/assn1/starter1/glfw/src -I/Users/yangguang/归档/图形学/assn1/starter1/build/glfw/src  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIC   -Wall -o CMakeFiles/glfw.dir/window.c.o   -c /Users/yangguang/归档/图形学/assn1/starter1/glfw/src/window.c",
+  "file": "/Users/yangguang/归档/图形学/assn1/starter1/glfw/src/window.c"
+},
+{
+  "directory": "/Users/yangguang/归档/图形学/assn1/starter1/build/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/yangguang/归档/图形学/assn1/starter1/glfw/include -I/Users/yangguang/归档/图形学/assn1/starter1/glfw/src -I/Users/yangguang/归档/图形学/assn1/starter1/build/glfw/src  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIC   -Wall -o CMakeFiles/glfw.dir/cocoa_init.m.o   -c /Users/yangguang/归档/图形学/assn1/starter1/glfw/src/cocoa_init.m",
+  "file": "/Users/yangguang/归档/图形学/assn1/starter1/glfw/src/cocoa_init.m"
+},
+{
+  "directory": "/Users/yangguang/归档/图形学/assn1/starter1/build/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/yangguang/归档/图形学/assn1/starter1/glfw/include -I/Users/yangguang/归档/图形学/assn1/starter1/glfw/src -I/Users/yangguang/归档/图形学/assn1/starter1/build/glfw/src  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIC   -Wall -o CMakeFiles/glfw.dir/cocoa_joystick.m.o   -c /Users/yangguang/归档/图形学/assn1/starter1/glfw/src/cocoa_joystick.m",
+  "file": "/Users/yangguang/归档/图形学/assn1/starter1/glfw/src/cocoa_joystick.m"
+},
+{
+  "directory": "/Users/yangguang/归档/图形学/assn1/starter1/build/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/yangguang/归档/图形学/assn1/starter1/glfw/include -I/Users/yangguang/归档/图形学/assn1/starter1/glfw/src -I/Users/yangguang/归档/图形学/assn1/starter1/build/glfw/src  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIC   -Wall -o CMakeFiles/glfw.dir/cocoa_monitor.m.o   -c /Users/yangguang/归档/图形学/assn1/starter1/glfw/src/cocoa_monitor.m",
+  "file": "/Users/yangguang/归档/图形学/assn1/starter1/glfw/src/cocoa_monitor.m"
+},
+{
+  "directory": "/Users/yangguang/归档/图形学/assn1/starter1/build/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/yangguang/归档/图形学/assn1/starter1/glfw/include -I/Users/yangguang/归档/图形学/assn1/starter1/glfw/src -I/Users/yangguang/归档/图形学/assn1/starter1/build/glfw/src  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIC   -Wall -o CMakeFiles/glfw.dir/cocoa_window.m.o   -c /Users/yangguang/归档/图形学/assn1/starter1/glfw/src/cocoa_window.m",
+  "file": "/Users/yangguang/归档/图形学/assn1/starter1/glfw/src/cocoa_window.m"
+},
+{
+  "directory": "/Users/yangguang/归档/图形学/assn1/starter1/build/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/yangguang/归档/图形学/assn1/starter1/glfw/include -I/Users/yangguang/归档/图形学/assn1/starter1/glfw/src -I/Users/yangguang/归档/图形学/assn1/starter1/build/glfw/src  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIC   -Wall -o CMakeFiles/glfw.dir/cocoa_time.c.o   -c /Users/yangguang/归档/图形学/assn1/starter1/glfw/src/cocoa_time.c",
+  "file": "/Users/yangguang/归档/图形学/assn1/starter1/glfw/src/cocoa_time.c"
+},
+{
+  "directory": "/Users/yangguang/归档/图形学/assn1/starter1/build/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/yangguang/归档/图形学/assn1/starter1/glfw/include -I/Users/yangguang/归档/图形学/assn1/starter1/glfw/src -I/Users/yangguang/归档/图形学/assn1/starter1/build/glfw/src  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIC   -Wall -o CMakeFiles/glfw.dir/posix_tls.c.o   -c /Users/yangguang/归档/图形学/assn1/starter1/glfw/src/posix_tls.c",
+  "file": "/Users/yangguang/归档/图形学/assn1/starter1/glfw/src/posix_tls.c"
+},
+{
+  "directory": "/Users/yangguang/归档/图形学/assn1/starter1/build/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/yangguang/归档/图形学/assn1/starter1/glfw/include -I/Users/yangguang/归档/图形学/assn1/starter1/glfw/src -I/Users/yangguang/归档/图形学/assn1/starter1/build/glfw/src  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIC   -Wall -o CMakeFiles/glfw.dir/nsgl_context.m.o   -c /Users/yangguang/归档/图形学/assn1/starter1/glfw/src/nsgl_context.m",
+  "file": "/Users/yangguang/归档/图形学/assn1/starter1/glfw/src/nsgl_context.m"
+},
+{
+  "directory": "/Users/yangguang/归档/图形学/assn1/starter1/build/vecmath",
+  "command": "/usr/bin/clang++   -I/Users/yangguang/归档/图形学/assn1/starter1/vecmath/include   --std=gnu++11 -g -Wall -Wno-unused-variable -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/vecmath.dir/Matrix2f.cpp.o -c /Users/yangguang/归档/图形学/assn1/starter1/vecmath/Matrix2f.cpp",
+  "file": "/Users/yangguang/归档/图形学/assn1/starter1/vecmath/Matrix2f.cpp"
+},
+{
+  "directory": "/Users/yangguang/归档/图形学/assn1/starter1/build/vecmath",
+  "command": "/usr/bin/clang++   -I/Users/yangguang/归档/图形学/assn1/starter1/vecmath/include   --std=gnu++11 -g -Wall -Wno-unused-variable -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/vecmath.dir/Matrix3f.cpp.o -c /Users/yangguang/归档/图形学/assn1/starter1/vecmath/Matrix3f.cpp",
+  "file": "/Users/yangguang/归档/图形学/assn1/starter1/vecmath/Matrix3f.cpp"
+},
+{
+  "directory": "/Users/yangguang/归档/图形学/assn1/starter1/build/vecmath",
+  "command": "/usr/bin/clang++   -I/Users/yangguang/归档/图形学/assn1/starter1/vecmath/include   --std=gnu++11 -g -Wall -Wno-unused-variable -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/vecmath.dir/Matrix4f.cpp.o -c /Users/yangguang/归档/图形学/assn1/starter1/vecmath/Matrix4f.cpp",
+  "file": "/Users/yangguang/归档/图形学/assn1/starter1/vecmath/Matrix4f.cpp"
+},
+{
+  "directory": "/Users/yangguang/归档/图形学/assn1/starter1/build/vecmath",
+  "command": "/usr/bin/clang++   -I/Users/yangguang/归档/图形学/assn1/starter1/vecmath/include   --std=gnu++11 -g -Wall -Wno-unused-variable -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/vecmath.dir/Quat4f.cpp.o -c /Users/yangguang/归档/图形学/assn1/starter1/vecmath/Quat4f.cpp",
+  "file": "/Users/yangguang/归档/图形学/assn1/starter1/vecmath/Quat4f.cpp"
+},
+{
+  "directory": "/Users/yangguang/归档/图形学/assn1/starter1/build/vecmath",
+  "command": "/usr/bin/clang++   -I/Users/yangguang/归档/图形学/assn1/starter1/vecmath/include   --std=gnu++11 -g -Wall -Wno-unused-variable -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/vecmath.dir/Vector2f.cpp.o -c /Users/yangguang/归档/图形学/assn1/starter1/vecmath/Vector2f.cpp",
+  "file": "/Users/yangguang/归档/图形学/assn1/starter1/vecmath/Vector2f.cpp"
+},
+{
+  "directory": "/Users/yangguang/归档/图形学/assn1/starter1/build/vecmath",
+  "command": "/usr/bin/clang++   -I/Users/yangguang/归档/图形学/assn1/starter1/vecmath/include   --std=gnu++11 -g -Wall -Wno-unused-variable -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/vecmath.dir/Vector3f.cpp.o -c /Users/yangguang/归档/图形学/assn1/starter1/vecmath/Vector3f.cpp",
+  "file": "/Users/yangguang/归档/图形学/assn1/starter1/vecmath/Vector3f.cpp"
+},
+{
+  "directory": "/Users/yangguang/归档/图形学/assn1/starter1/build/vecmath",
+  "command": "/usr/bin/clang++   -I/Users/yangguang/归档/图形学/assn1/starter1/vecmath/include   --std=gnu++11 -g -Wall -Wno-unused-variable -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/vecmath.dir/Vector4f.cpp.o -c /Users/yangguang/归档/图形学/assn1/starter1/vecmath/Vector4f.cpp",
+  "file": "/Users/yangguang/归档/图形学/assn1/starter1/vecmath/Vector4f.cpp"
+}
+]

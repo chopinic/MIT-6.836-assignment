@@ -1,0 +1,162 @@
+[
+{
+  "directory": "/Users/yangguang/archive/cmakeTest/qtCMake/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I/Users/yangguang/archive/cmakeTest/qtCMake/build/a1_autogen/include -I/Users/yangguang/archive/cmakeTest/qtCMake/vecmath/include -I/Users/yangguang/archive/cmakeTest/qtCMake/glfw/include -iframework /Users/yangguang/Qt5.9.0/5.9/clang_64/lib -isystem /Users/yangguang/Qt5.9.0/5.9/clang_64/lib/QtWidgets.framework/Headers -isystem /Users/yangguang/Qt5.9.0/5.9/clang_64/lib/QtGui.framework/Headers -isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /Users/yangguang/Qt5.9.0/5.9/clang_64/lib/QtCore.framework/Headers -isystem /Users/yangguang/Qt5.9.0/5.9/clang_64/./mkspecs/macx-clang -isystem /Users/yangguang/Qt5.9.0/5.9/clang_64/lib/QtOpenGL.framework/Headers   --std=gnu++11 -g -Wall -Wno-unused-variable -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -fPIC -std=gnu++11 -o CMakeFiles/a1.dir/a1_autogen/mocs_compilation.cpp.o -c /Users/yangguang/archive/cmakeTest/qtCMake/build/a1_autogen/mocs_compilation.cpp",
+  "file": "/Users/yangguang/archive/cmakeTest/qtCMake/build/a1_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/Users/yangguang/archive/cmakeTest/qtCMake/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I/Users/yangguang/archive/cmakeTest/qtCMake/build/a1_autogen/include -I/Users/yangguang/archive/cmakeTest/qtCMake/vecmath/include -I/Users/yangguang/archive/cmakeTest/qtCMake/glfw/include -iframework /Users/yangguang/Qt5.9.0/5.9/clang_64/lib -isystem /Users/yangguang/Qt5.9.0/5.9/clang_64/lib/QtWidgets.framework/Headers -isystem /Users/yangguang/Qt5.9.0/5.9/clang_64/lib/QtGui.framework/Headers -isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /Users/yangguang/Qt5.9.0/5.9/clang_64/lib/QtCore.framework/Headers -isystem /Users/yangguang/Qt5.9.0/5.9/clang_64/./mkspecs/macx-clang -isystem /Users/yangguang/Qt5.9.0/5.9/clang_64/lib/QtOpenGL.framework/Headers   --std=gnu++11 -g -Wall -Wno-unused-variable -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -fPIC -std=gnu++11 -o CMakeFiles/a1.dir/src/main.cpp.o -c /Users/yangguang/archive/cmakeTest/qtCMake/src/main.cpp",
+  "file": "/Users/yangguang/archive/cmakeTest/qtCMake/src/main.cpp"
+},
+{
+  "directory": "/Users/yangguang/archive/cmakeTest/qtCMake/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I/Users/yangguang/archive/cmakeTest/qtCMake/build/a1_autogen/include -I/Users/yangguang/archive/cmakeTest/qtCMake/vecmath/include -I/Users/yangguang/archive/cmakeTest/qtCMake/glfw/include -iframework /Users/yangguang/Qt5.9.0/5.9/clang_64/lib -isystem /Users/yangguang/Qt5.9.0/5.9/clang_64/lib/QtWidgets.framework/Headers -isystem /Users/yangguang/Qt5.9.0/5.9/clang_64/lib/QtGui.framework/Headers -isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /Users/yangguang/Qt5.9.0/5.9/clang_64/lib/QtCore.framework/Headers -isystem /Users/yangguang/Qt5.9.0/5.9/clang_64/./mkspecs/macx-clang -isystem /Users/yangguang/Qt5.9.0/5.9/clang_64/lib/QtOpenGL.framework/Headers   --std=gnu++11 -g -Wall -Wno-unused-variable -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -fPIC -std=gnu++11 -o CMakeFiles/a1.dir/src/mainwindow.cpp.o -c /Users/yangguang/archive/cmakeTest/qtCMake/src/mainwindow.cpp",
+  "file": "/Users/yangguang/archive/cmakeTest/qtCMake/src/mainwindow.cpp"
+},
+{
+  "directory": "/Users/yangguang/archive/cmakeTest/qtCMake/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I/Users/yangguang/archive/cmakeTest/qtCMake/build/a1_autogen/include -I/Users/yangguang/archive/cmakeTest/qtCMake/vecmath/include -I/Users/yangguang/archive/cmakeTest/qtCMake/glfw/include -iframework /Users/yangguang/Qt5.9.0/5.9/clang_64/lib -isystem /Users/yangguang/Qt5.9.0/5.9/clang_64/lib/QtWidgets.framework/Headers -isystem /Users/yangguang/Qt5.9.0/5.9/clang_64/lib/QtGui.framework/Headers -isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /Users/yangguang/Qt5.9.0/5.9/clang_64/lib/QtCore.framework/Headers -isystem /Users/yangguang/Qt5.9.0/5.9/clang_64/./mkspecs/macx-clang -isystem /Users/yangguang/Qt5.9.0/5.9/clang_64/lib/QtOpenGL.framework/Headers   --std=gnu++11 -g -Wall -Wno-unused-variable -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -fPIC -std=gnu++11 -o CMakeFiles/a1.dir/src/glwidget.cpp.o -c /Users/yangguang/archive/cmakeTest/qtCMake/src/glwidget.cpp",
+  "file": "/Users/yangguang/archive/cmakeTest/qtCMake/src/glwidget.cpp"
+},
+{
+  "directory": "/Users/yangguang/archive/cmakeTest/qtCMake/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I/Users/yangguang/archive/cmakeTest/qtCMake/build/a1_autogen/include -I/Users/yangguang/archive/cmakeTest/qtCMake/vecmath/include -I/Users/yangguang/archive/cmakeTest/qtCMake/glfw/include -iframework /Users/yangguang/Qt5.9.0/5.9/clang_64/lib -isystem /Users/yangguang/Qt5.9.0/5.9/clang_64/lib/QtWidgets.framework/Headers -isystem /Users/yangguang/Qt5.9.0/5.9/clang_64/lib/QtGui.framework/Headers -isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /Users/yangguang/Qt5.9.0/5.9/clang_64/lib/QtCore.framework/Headers -isystem /Users/yangguang/Qt5.9.0/5.9/clang_64/./mkspecs/macx-clang -isystem /Users/yangguang/Qt5.9.0/5.9/clang_64/lib/QtOpenGL.framework/Headers   --std=gnu++11 -g -Wall -Wno-unused-variable -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -fPIC -std=gnu++11 -o CMakeFiles/a1.dir/src/camera.cpp.o -c /Users/yangguang/archive/cmakeTest/qtCMake/src/camera.cpp",
+  "file": "/Users/yangguang/archive/cmakeTest/qtCMake/src/camera.cpp"
+},
+{
+  "directory": "/Users/yangguang/archive/cmakeTest/qtCMake/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I/Users/yangguang/archive/cmakeTest/qtCMake/build/a1_autogen/include -I/Users/yangguang/archive/cmakeTest/qtCMake/vecmath/include -I/Users/yangguang/archive/cmakeTest/qtCMake/glfw/include -iframework /Users/yangguang/Qt5.9.0/5.9/clang_64/lib -isystem /Users/yangguang/Qt5.9.0/5.9/clang_64/lib/QtWidgets.framework/Headers -isystem /Users/yangguang/Qt5.9.0/5.9/clang_64/lib/QtGui.framework/Headers -isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /Users/yangguang/Qt5.9.0/5.9/clang_64/lib/QtCore.framework/Headers -isystem /Users/yangguang/Qt5.9.0/5.9/clang_64/./mkspecs/macx-clang -isystem /Users/yangguang/Qt5.9.0/5.9/clang_64/lib/QtOpenGL.framework/Headers   --std=gnu++11 -g -Wall -Wno-unused-variable -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -fPIC -std=gnu++11 -o CMakeFiles/a1.dir/src/curve.cpp.o -c /Users/yangguang/archive/cmakeTest/qtCMake/src/curve.cpp",
+  "file": "/Users/yangguang/archive/cmakeTest/qtCMake/src/curve.cpp"
+},
+{
+  "directory": "/Users/yangguang/archive/cmakeTest/qtCMake/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I/Users/yangguang/archive/cmakeTest/qtCMake/build/a1_autogen/include -I/Users/yangguang/archive/cmakeTest/qtCMake/vecmath/include -I/Users/yangguang/archive/cmakeTest/qtCMake/glfw/include -iframework /Users/yangguang/Qt5.9.0/5.9/clang_64/lib -isystem /Users/yangguang/Qt5.9.0/5.9/clang_64/lib/QtWidgets.framework/Headers -isystem /Users/yangguang/Qt5.9.0/5.9/clang_64/lib/QtGui.framework/Headers -isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /Users/yangguang/Qt5.9.0/5.9/clang_64/lib/QtCore.framework/Headers -isystem /Users/yangguang/Qt5.9.0/5.9/clang_64/./mkspecs/macx-clang -isystem /Users/yangguang/Qt5.9.0/5.9/clang_64/lib/QtOpenGL.framework/Headers   --std=gnu++11 -g -Wall -Wno-unused-variable -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -fPIC -std=gnu++11 -o CMakeFiles/a1.dir/src/parse.cpp.o -c /Users/yangguang/archive/cmakeTest/qtCMake/src/parse.cpp",
+  "file": "/Users/yangguang/archive/cmakeTest/qtCMake/src/parse.cpp"
+},
+{
+  "directory": "/Users/yangguang/archive/cmakeTest/qtCMake/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I/Users/yangguang/archive/cmakeTest/qtCMake/build/a1_autogen/include -I/Users/yangguang/archive/cmakeTest/qtCMake/vecmath/include -I/Users/yangguang/archive/cmakeTest/qtCMake/glfw/include -iframework /Users/yangguang/Qt5.9.0/5.9/clang_64/lib -isystem /Users/yangguang/Qt5.9.0/5.9/clang_64/lib/QtWidgets.framework/Headers -isystem /Users/yangguang/Qt5.9.0/5.9/clang_64/lib/QtGui.framework/Headers -isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /Users/yangguang/Qt5.9.0/5.9/clang_64/lib/QtCore.framework/Headers -isystem /Users/yangguang/Qt5.9.0/5.9/clang_64/./mkspecs/macx-clang -isystem /Users/yangguang/Qt5.9.0/5.9/clang_64/lib/QtOpenGL.framework/Headers   --std=gnu++11 -g -Wall -Wno-unused-variable -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -fPIC -std=gnu++11 -o CMakeFiles/a1.dir/src/starter1_util.cpp.o -c /Users/yangguang/archive/cmakeTest/qtCMake/src/starter1_util.cpp",
+  "file": "/Users/yangguang/archive/cmakeTest/qtCMake/src/starter1_util.cpp"
+},
+{
+  "directory": "/Users/yangguang/archive/cmakeTest/qtCMake/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I/Users/yangguang/archive/cmakeTest/qtCMake/build/a1_autogen/include -I/Users/yangguang/archive/cmakeTest/qtCMake/vecmath/include -I/Users/yangguang/archive/cmakeTest/qtCMake/glfw/include -iframework /Users/yangguang/Qt5.9.0/5.9/clang_64/lib -isystem /Users/yangguang/Qt5.9.0/5.9/clang_64/lib/QtWidgets.framework/Headers -isystem /Users/yangguang/Qt5.9.0/5.9/clang_64/lib/QtGui.framework/Headers -isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /Users/yangguang/Qt5.9.0/5.9/clang_64/lib/QtCore.framework/Headers -isystem /Users/yangguang/Qt5.9.0/5.9/clang_64/./mkspecs/macx-clang -isystem /Users/yangguang/Qt5.9.0/5.9/clang_64/lib/QtOpenGL.framework/Headers   --std=gnu++11 -g -Wall -Wno-unused-variable -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -fPIC -std=gnu++11 -o CMakeFiles/a1.dir/src/surf.cpp.o -c /Users/yangguang/archive/cmakeTest/qtCMake/src/surf.cpp",
+  "file": "/Users/yangguang/archive/cmakeTest/qtCMake/src/surf.cpp"
+},
+{
+  "directory": "/Users/yangguang/archive/cmakeTest/qtCMake/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -I/Users/yangguang/archive/cmakeTest/qtCMake/build/a1_autogen/include -I/Users/yangguang/archive/cmakeTest/qtCMake/vecmath/include -I/Users/yangguang/archive/cmakeTest/qtCMake/glfw/include -iframework /Users/yangguang/Qt5.9.0/5.9/clang_64/lib -isystem /Users/yangguang/Qt5.9.0/5.9/clang_64/lib/QtWidgets.framework/Headers -isystem /Users/yangguang/Qt5.9.0/5.9/clang_64/lib/QtGui.framework/Headers -isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /Users/yangguang/Qt5.9.0/5.9/clang_64/lib/QtCore.framework/Headers -isystem /Users/yangguang/Qt5.9.0/5.9/clang_64/./mkspecs/macx-clang -isystem /Users/yangguang/Qt5.9.0/5.9/clang_64/lib/QtOpenGL.framework/Headers   --std=gnu++11 -g -Wall -Wno-unused-variable -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -fPIC -std=gnu++11 -o CMakeFiles/a1.dir/src/vertexrecorder.cpp.o -c /Users/yangguang/archive/cmakeTest/qtCMake/src/vertexrecorder.cpp",
+  "file": "/Users/yangguang/archive/cmakeTest/qtCMake/src/vertexrecorder.cpp"
+},
+{
+  "directory": "/Users/yangguang/archive/cmakeTest/qtCMake/build/glfw/src",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -D_GLFW_USE_CONFIG_H -I/Users/yangguang/archive/cmakeTest/qtCMake/build/glfw/src/glfw_autogen/include -I/Users/yangguang/archive/cmakeTest/qtCMake/glfw/include -I/Users/yangguang/archive/cmakeTest/qtCMake/glfw/src -I/Users/yangguang/archive/cmakeTest/qtCMake/build/glfw/src   --std=gnu++11 -g -Wall -Wno-unused-variable -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIC   -o CMakeFiles/glfw.dir/glfw_autogen/mocs_compilation.cpp.o -c /Users/yangguang/archive/cmakeTest/qtCMake/build/glfw/src/glfw_autogen/mocs_compilation.cpp",
+  "file": "/Users/yangguang/archive/cmakeTest/qtCMake/build/glfw/src/glfw_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/Users/yangguang/archive/cmakeTest/qtCMake/build/glfw/src",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/Users/yangguang/archive/cmakeTest/qtCMake/build/glfw/src/glfw_autogen/include -I/Users/yangguang/archive/cmakeTest/qtCMake/glfw/include -I/Users/yangguang/archive/cmakeTest/qtCMake/glfw/src -I/Users/yangguang/archive/cmakeTest/qtCMake/build/glfw/src  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIC   -o CMakeFiles/glfw.dir/context.c.o   -c /Users/yangguang/archive/cmakeTest/qtCMake/glfw/src/context.c",
+  "file": "/Users/yangguang/archive/cmakeTest/qtCMake/glfw/src/context.c"
+},
+{
+  "directory": "/Users/yangguang/archive/cmakeTest/qtCMake/build/glfw/src",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/Users/yangguang/archive/cmakeTest/qtCMake/build/glfw/src/glfw_autogen/include -I/Users/yangguang/archive/cmakeTest/qtCMake/glfw/include -I/Users/yangguang/archive/cmakeTest/qtCMake/glfw/src -I/Users/yangguang/archive/cmakeTest/qtCMake/build/glfw/src  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIC   -o CMakeFiles/glfw.dir/init.c.o   -c /Users/yangguang/archive/cmakeTest/qtCMake/glfw/src/init.c",
+  "file": "/Users/yangguang/archive/cmakeTest/qtCMake/glfw/src/init.c"
+},
+{
+  "directory": "/Users/yangguang/archive/cmakeTest/qtCMake/build/glfw/src",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/Users/yangguang/archive/cmakeTest/qtCMake/build/glfw/src/glfw_autogen/include -I/Users/yangguang/archive/cmakeTest/qtCMake/glfw/include -I/Users/yangguang/archive/cmakeTest/qtCMake/glfw/src -I/Users/yangguang/archive/cmakeTest/qtCMake/build/glfw/src  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIC   -o CMakeFiles/glfw.dir/input.c.o   -c /Users/yangguang/archive/cmakeTest/qtCMake/glfw/src/input.c",
+  "file": "/Users/yangguang/archive/cmakeTest/qtCMake/glfw/src/input.c"
+},
+{
+  "directory": "/Users/yangguang/archive/cmakeTest/qtCMake/build/glfw/src",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/Users/yangguang/archive/cmakeTest/qtCMake/build/glfw/src/glfw_autogen/include -I/Users/yangguang/archive/cmakeTest/qtCMake/glfw/include -I/Users/yangguang/archive/cmakeTest/qtCMake/glfw/src -I/Users/yangguang/archive/cmakeTest/qtCMake/build/glfw/src  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIC   -o CMakeFiles/glfw.dir/monitor.c.o   -c /Users/yangguang/archive/cmakeTest/qtCMake/glfw/src/monitor.c",
+  "file": "/Users/yangguang/archive/cmakeTest/qtCMake/glfw/src/monitor.c"
+},
+{
+  "directory": "/Users/yangguang/archive/cmakeTest/qtCMake/build/glfw/src",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/Users/yangguang/archive/cmakeTest/qtCMake/build/glfw/src/glfw_autogen/include -I/Users/yangguang/archive/cmakeTest/qtCMake/glfw/include -I/Users/yangguang/archive/cmakeTest/qtCMake/glfw/src -I/Users/yangguang/archive/cmakeTest/qtCMake/build/glfw/src  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIC   -o CMakeFiles/glfw.dir/vulkan.c.o   -c /Users/yangguang/archive/cmakeTest/qtCMake/glfw/src/vulkan.c",
+  "file": "/Users/yangguang/archive/cmakeTest/qtCMake/glfw/src/vulkan.c"
+},
+{
+  "directory": "/Users/yangguang/archive/cmakeTest/qtCMake/build/glfw/src",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/Users/yangguang/archive/cmakeTest/qtCMake/build/glfw/src/glfw_autogen/include -I/Users/yangguang/archive/cmakeTest/qtCMake/glfw/include -I/Users/yangguang/archive/cmakeTest/qtCMake/glfw/src -I/Users/yangguang/archive/cmakeTest/qtCMake/build/glfw/src  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIC   -o CMakeFiles/glfw.dir/window.c.o   -c /Users/yangguang/archive/cmakeTest/qtCMake/glfw/src/window.c",
+  "file": "/Users/yangguang/archive/cmakeTest/qtCMake/glfw/src/window.c"
+},
+{
+  "directory": "/Users/yangguang/archive/cmakeTest/qtCMake/build/glfw/src",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/Users/yangguang/archive/cmakeTest/qtCMake/build/glfw/src/glfw_autogen/include -I/Users/yangguang/archive/cmakeTest/qtCMake/glfw/include -I/Users/yangguang/archive/cmakeTest/qtCMake/glfw/src -I/Users/yangguang/archive/cmakeTest/qtCMake/build/glfw/src  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIC   -o CMakeFiles/glfw.dir/cocoa_init.m.o   -c /Users/yangguang/archive/cmakeTest/qtCMake/glfw/src/cocoa_init.m",
+  "file": "/Users/yangguang/archive/cmakeTest/qtCMake/glfw/src/cocoa_init.m"
+},
+{
+  "directory": "/Users/yangguang/archive/cmakeTest/qtCMake/build/glfw/src",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/Users/yangguang/archive/cmakeTest/qtCMake/build/glfw/src/glfw_autogen/include -I/Users/yangguang/archive/cmakeTest/qtCMake/glfw/include -I/Users/yangguang/archive/cmakeTest/qtCMake/glfw/src -I/Users/yangguang/archive/cmakeTest/qtCMake/build/glfw/src  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIC   -o CMakeFiles/glfw.dir/cocoa_joystick.m.o   -c /Users/yangguang/archive/cmakeTest/qtCMake/glfw/src/cocoa_joystick.m",
+  "file": "/Users/yangguang/archive/cmakeTest/qtCMake/glfw/src/cocoa_joystick.m"
+},
+{
+  "directory": "/Users/yangguang/archive/cmakeTest/qtCMake/build/glfw/src",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/Users/yangguang/archive/cmakeTest/qtCMake/build/glfw/src/glfw_autogen/include -I/Users/yangguang/archive/cmakeTest/qtCMake/glfw/include -I/Users/yangguang/archive/cmakeTest/qtCMake/glfw/src -I/Users/yangguang/archive/cmakeTest/qtCMake/build/glfw/src  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIC   -o CMakeFiles/glfw.dir/cocoa_monitor.m.o   -c /Users/yangguang/archive/cmakeTest/qtCMake/glfw/src/cocoa_monitor.m",
+  "file": "/Users/yangguang/archive/cmakeTest/qtCMake/glfw/src/cocoa_monitor.m"
+},
+{
+  "directory": "/Users/yangguang/archive/cmakeTest/qtCMake/build/glfw/src",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/Users/yangguang/archive/cmakeTest/qtCMake/build/glfw/src/glfw_autogen/include -I/Users/yangguang/archive/cmakeTest/qtCMake/glfw/include -I/Users/yangguang/archive/cmakeTest/qtCMake/glfw/src -I/Users/yangguang/archive/cmakeTest/qtCMake/build/glfw/src  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIC   -o CMakeFiles/glfw.dir/cocoa_window.m.o   -c /Users/yangguang/archive/cmakeTest/qtCMake/glfw/src/cocoa_window.m",
+  "file": "/Users/yangguang/archive/cmakeTest/qtCMake/glfw/src/cocoa_window.m"
+},
+{
+  "directory": "/Users/yangguang/archive/cmakeTest/qtCMake/build/glfw/src",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/Users/yangguang/archive/cmakeTest/qtCMake/build/glfw/src/glfw_autogen/include -I/Users/yangguang/archive/cmakeTest/qtCMake/glfw/include -I/Users/yangguang/archive/cmakeTest/qtCMake/glfw/src -I/Users/yangguang/archive/cmakeTest/qtCMake/build/glfw/src  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIC   -o CMakeFiles/glfw.dir/cocoa_time.c.o   -c /Users/yangguang/archive/cmakeTest/qtCMake/glfw/src/cocoa_time.c",
+  "file": "/Users/yangguang/archive/cmakeTest/qtCMake/glfw/src/cocoa_time.c"
+},
+{
+  "directory": "/Users/yangguang/archive/cmakeTest/qtCMake/build/glfw/src",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/Users/yangguang/archive/cmakeTest/qtCMake/build/glfw/src/glfw_autogen/include -I/Users/yangguang/archive/cmakeTest/qtCMake/glfw/include -I/Users/yangguang/archive/cmakeTest/qtCMake/glfw/src -I/Users/yangguang/archive/cmakeTest/qtCMake/build/glfw/src  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIC   -o CMakeFiles/glfw.dir/posix_tls.c.o   -c /Users/yangguang/archive/cmakeTest/qtCMake/glfw/src/posix_tls.c",
+  "file": "/Users/yangguang/archive/cmakeTest/qtCMake/glfw/src/posix_tls.c"
+},
+{
+  "directory": "/Users/yangguang/archive/cmakeTest/qtCMake/build/glfw/src",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/Users/yangguang/archive/cmakeTest/qtCMake/build/glfw/src/glfw_autogen/include -I/Users/yangguang/archive/cmakeTest/qtCMake/glfw/include -I/Users/yangguang/archive/cmakeTest/qtCMake/glfw/src -I/Users/yangguang/archive/cmakeTest/qtCMake/build/glfw/src  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fPIC   -o CMakeFiles/glfw.dir/nsgl_context.m.o   -c /Users/yangguang/archive/cmakeTest/qtCMake/glfw/src/nsgl_context.m",
+  "file": "/Users/yangguang/archive/cmakeTest/qtCMake/glfw/src/nsgl_context.m"
+},
+{
+  "directory": "/Users/yangguang/archive/cmakeTest/qtCMake/build/vecmath",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -I/Users/yangguang/archive/cmakeTest/qtCMake/build/vecmath/vecmath_autogen/include -I/Users/yangguang/archive/cmakeTest/qtCMake/vecmath/include   --std=gnu++11 -g -Wall -Wno-unused-variable -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/vecmath.dir/vecmath_autogen/mocs_compilation.cpp.o -c /Users/yangguang/archive/cmakeTest/qtCMake/build/vecmath/vecmath_autogen/mocs_compilation.cpp",
+  "file": "/Users/yangguang/archive/cmakeTest/qtCMake/build/vecmath/vecmath_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/Users/yangguang/archive/cmakeTest/qtCMake/build/vecmath",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -I/Users/yangguang/archive/cmakeTest/qtCMake/build/vecmath/vecmath_autogen/include -I/Users/yangguang/archive/cmakeTest/qtCMake/vecmath/include   --std=gnu++11 -g -Wall -Wno-unused-variable -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/vecmath.dir/Matrix2f.cpp.o -c /Users/yangguang/archive/cmakeTest/qtCMake/vecmath/Matrix2f.cpp",
+  "file": "/Users/yangguang/archive/cmakeTest/qtCMake/vecmath/Matrix2f.cpp"
+},
+{
+  "directory": "/Users/yangguang/archive/cmakeTest/qtCMake/build/vecmath",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -I/Users/yangguang/archive/cmakeTest/qtCMake/build/vecmath/vecmath_autogen/include -I/Users/yangguang/archive/cmakeTest/qtCMake/vecmath/include   --std=gnu++11 -g -Wall -Wno-unused-variable -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/vecmath.dir/Matrix3f.cpp.o -c /Users/yangguang/archive/cmakeTest/qtCMake/vecmath/Matrix3f.cpp",
+  "file": "/Users/yangguang/archive/cmakeTest/qtCMake/vecmath/Matrix3f.cpp"
+},
+{
+  "directory": "/Users/yangguang/archive/cmakeTest/qtCMake/build/vecmath",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -I/Users/yangguang/archive/cmakeTest/qtCMake/build/vecmath/vecmath_autogen/include -I/Users/yangguang/archive/cmakeTest/qtCMake/vecmath/include   --std=gnu++11 -g -Wall -Wno-unused-variable -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/vecmath.dir/Matrix4f.cpp.o -c /Users/yangguang/archive/cmakeTest/qtCMake/vecmath/Matrix4f.cpp",
+  "file": "/Users/yangguang/archive/cmakeTest/qtCMake/vecmath/Matrix4f.cpp"
+},
+{
+  "directory": "/Users/yangguang/archive/cmakeTest/qtCMake/build/vecmath",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -I/Users/yangguang/archive/cmakeTest/qtCMake/build/vecmath/vecmath_autogen/include -I/Users/yangguang/archive/cmakeTest/qtCMake/vecmath/include   --std=gnu++11 -g -Wall -Wno-unused-variable -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/vecmath.dir/Quat4f.cpp.o -c /Users/yangguang/archive/cmakeTest/qtCMake/vecmath/Quat4f.cpp",
+  "file": "/Users/yangguang/archive/cmakeTest/qtCMake/vecmath/Quat4f.cpp"
+},
+{
+  "directory": "/Users/yangguang/archive/cmakeTest/qtCMake/build/vecmath",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -I/Users/yangguang/archive/cmakeTest/qtCMake/build/vecmath/vecmath_autogen/include -I/Users/yangguang/archive/cmakeTest/qtCMake/vecmath/include   --std=gnu++11 -g -Wall -Wno-unused-variable -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/vecmath.dir/Vector2f.cpp.o -c /Users/yangguang/archive/cmakeTest/qtCMake/vecmath/Vector2f.cpp",
+  "file": "/Users/yangguang/archive/cmakeTest/qtCMake/vecmath/Vector2f.cpp"
+},
+{
+  "directory": "/Users/yangguang/archive/cmakeTest/qtCMake/build/vecmath",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -I/Users/yangguang/archive/cmakeTest/qtCMake/build/vecmath/vecmath_autogen/include -I/Users/yangguang/archive/cmakeTest/qtCMake/vecmath/include   --std=gnu++11 -g -Wall -Wno-unused-variable -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/vecmath.dir/Vector3f.cpp.o -c /Users/yangguang/archive/cmakeTest/qtCMake/vecmath/Vector3f.cpp",
+  "file": "/Users/yangguang/archive/cmakeTest/qtCMake/vecmath/Vector3f.cpp"
+},
+{
+  "directory": "/Users/yangguang/archive/cmakeTest/qtCMake/build/vecmath",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -I/Users/yangguang/archive/cmakeTest/qtCMake/build/vecmath/vecmath_autogen/include -I/Users/yangguang/archive/cmakeTest/qtCMake/vecmath/include   --std=gnu++11 -g -Wall -Wno-unused-variable -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/vecmath.dir/Vector4f.cpp.o -c /Users/yangguang/archive/cmakeTest/qtCMake/vecmath/Vector4f.cpp",
+  "file": "/Users/yangguang/archive/cmakeTest/qtCMake/vecmath/Vector4f.cpp"
+}
+]

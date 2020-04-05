@@ -1,0 +1,14 @@
+/Users/yangguang/archive/cmakeTest/qtCMake/build/CMakeFiles/rebuild_cache.dir
+/Users/yangguang/archive/cmakeTest/qtCMake/build/CMakeFiles/edit_cache.dir
+/Users/yangguang/archive/cmakeTest/qtCMake/build/CMakeFiles/a1.dir
+/Users/yangguang/archive/cmakeTest/qtCMake/build/CMakeFiles/a1_autogen.dir
+/Users/yangguang/archive/cmakeTest/qtCMake/build/glfw/CMakeFiles/rebuild_cache.dir
+/Users/yangguang/archive/cmakeTest/qtCMake/build/glfw/CMakeFiles/edit_cache.dir
+/Users/yangguang/archive/cmakeTest/qtCMake/build/glfw/src/CMakeFiles/rebuild_cache.dir
+/Users/yangguang/archive/cmakeTest/qtCMake/build/glfw/src/CMakeFiles/edit_cache.dir
+/Users/yangguang/archive/cmakeTest/qtCMake/build/glfw/src/CMakeFiles/glfw.dir
+/Users/yangguang/archive/cmakeTest/qtCMake/build/glfw/src/CMakeFiles/glfw_autogen.dir
+/Users/yangguang/archive/cmakeTest/qtCMake/build/vecmath/CMakeFiles/rebuild_cache.dir
+/Users/yangguang/archive/cmakeTest/qtCMake/build/vecmath/CMakeFiles/edit_cache.dir
+/Users/yangguang/archive/cmakeTest/qtCMake/build/vecmath/CMakeFiles/vecmath.dir
+/Users/yangguang/archive/cmakeTest/qtCMake/build/vecmath/CMakeFiles/vecmath_autogen.dir

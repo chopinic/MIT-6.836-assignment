@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+83d72e2ae9ec66acd638680620c4b906 CMakeFiles/a1_autogen
+4af5458e87a8f0cc275ea3f4e73fd6a2 glfw/src/CMakeFiles/glfw_autogen
+141927114744b8deddaeb08243a85e67 vecmath/CMakeFiles/vecmath_autogen
