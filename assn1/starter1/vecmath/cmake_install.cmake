@@ -1,4 +1,4 @@
-# Install script for directory: /Users/yangguang/archive/图形学/assn1/starter1/vecmath
+# Install script for directory: /media/psf/Home/archive/图形学/MIT-6.836-assignment/assn1/starter1/vecmath
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -27,8 +27,8 @@ if(NOT CMAKE_INSTALL_COMPONENT)
   endif()
 endif()
 
-# Is this installation the result of a crosscompile?
-if(NOT DEFINED CMAKE_CROSSCOMPILING)
-  set(CMAKE_CROSSCOMPILING "FALSE")
+# Install shared libraries without execute permission?
+if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
+  set(CMAKE_INSTALL_SO_NO_EXE "1")
 endif()
 
