@@ -1,4 +1,4 @@
-# Install script for directory: /media/psf/Home/archive/图形学/MIT-6.836-assignment/assn1/starter1
+# Install script for directory: /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn1/starter1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -27,15 +27,15 @@ if(NOT CMAKE_INSTALL_COMPONENT)
   endif()
 endif()
 
-# Install shared libraries without execute permission?
-if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
-  set(CMAKE_INSTALL_SO_NO_EXE "1")
+# Is this installation the result of a crosscompile?
+if(NOT DEFINED CMAKE_CROSSCOMPILING)
+  set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/media/psf/Home/archive/图形学/MIT-6.836-assignment/assn1/starter1/glfw/cmake_install.cmake")
-  include("/media/psf/Home/archive/图形学/MIT-6.836-assignment/assn1/starter1/vecmath/cmake_install.cmake")
+  include("/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn1/starter1/glfw/cmake_install.cmake")
+  include("/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn1/starter1/vecmath/cmake_install.cmake")
 
 endif()
 
@@ -47,5 +47,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/media/psf/Home/archive/图形学/MIT-6.836-assignment/assn1/starter1/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn1/starter1/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

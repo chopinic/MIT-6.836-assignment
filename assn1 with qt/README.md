@@ -29,4 +29,6 @@ Use mouse to select control points and edit it
 
 Implement other surface division algorithm
 
+Change the meterial
+
 

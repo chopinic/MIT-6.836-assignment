@@ -62,12 +62,12 @@ void VertexRecorder::draw(GLenum mode)
     glBufferData(GL_ARRAY_BUFFER, normal_nbytes, 
         m_normal.data(), GL_DYNAMIC_DRAW);
     glEnableVertexAttribArray(1);
-    glVertexAttribPointer(1,
+    glVertexAttribPointer(1,        // layout(location=1) in vec3 Normal;
  	3,
  	GL_FLOAT,
  	GL_FALSE,
- 	sizeof(m_normal[0]),
- 	(void*)0);
+ 	sizeof(m_normal[0]),            // step between data
+ 	(void*)0);                      // offset in the buffer
 
     // COLOR
     glBindBuffer(GL_ARRAY_BUFFER, vertexbuffer[2]);

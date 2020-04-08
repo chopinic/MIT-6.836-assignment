@@ -322,11 +322,16 @@ Curve evalCircle(float radius, unsigned steps)
 
 void recordCurve(const Curve& curve, VertexRecorder* recorder)
 {
-	const Vector3f WHITE(1, 1, 1);
+	const Vector3f YELLOW(1, 1, 1);
 	for (int i = 0; i < (int)curve.size() - 1; ++i)
 	{
-		recorder->record_poscolor(curve[i].V, WHITE);
-		recorder->record_poscolor(curve[i + 1].V, WHITE);
+		// int prev = i-1, next = i+1;
+		// if(i == 0) prev = (int)curve.size() - 2;
+		float angleCos = Vector3f::dot(curve[i].T , curve[i+1].T)/(curve[i].T.abs()*curve[i+1].T.abs());
+		angleCos = 1-pow(angleCos,200);
+		cout<<angleCos<<endl;
+		recorder->record_poscolor(curve[i].V, YELLOW*angleCos);
+		recorder->record_poscolor(curve[i + 1].V, YELLOW*angleCos);
 	}
 }
 void recordCurveFrames(const Curve& curve, VertexRecorder* recorder, float framesize)
