@@ -92,7 +92,7 @@ Surface makeSurfRev(const Curve &profile, unsigned steps)
     {
         double angle = (double)2 / steps * c_pi;
         Matrix3f trans = makeTrans(0, angle, 0);
-
+        // cout<<"trans.inverse().transposed()"<<endl;
         // push all the vertices and their normals
         for (int i = 0; i < profile.size(); i++)
         {
@@ -102,7 +102,7 @@ Surface makeSurfRev(const Curve &profile, unsigned steps)
             {
                 surface.VV.push_back(V);
                 surface.VN.push_back(-N);
-                N = (trans * N).normalized();
+                N = (trans.inverse().transposed() * N).normalized();
                 V = trans * V;
             }
         }
@@ -176,7 +176,7 @@ Surface makeGenCyl(const Curve &profile, const Curve &sweep)
                 Vector3f nV = profile[k].V;
                 Vector3f nN = profile[k].N;
                 nV = trans * nV + sV;
-                nN = trans * nN;
+                nN = trans.inverse().transposed() * nN;
                 surface.VV.push_back(nV);
                 surface.VN.push_back(-1 * nN);
             }

@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/3rd_party/lodepng/lodepng.cpp
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/lodepng/lodepng.cpp
 lodepng.h
-/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/3rd_party/lodepng/lodepng.h
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/lodepng/lodepng.h
 limits.h
 -
 stdio.h
@@ -16,7 +16,7 @@ stdio.h
 stdlib.h
 -
 
-/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/3rd_party/lodepng/lodepng.h
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/lodepng/lodepng.h
 string.h
 -
 vector
@@ -24,45 +24,45 @@ vector
 string
 -
 lodepng.h
-/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/3rd_party/lodepng/lodepng.h
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/lodepng/lodepng.h
 iostream
 -
 lodepng.h
-/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/3rd_party/lodepng/lodepng.h
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/lodepng/lodepng.h
 
-/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/src/camera.cpp
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/src/camera.cpp
 camera.h
-/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/src/camera.h
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/src/camera.h
 iostream
 -
 gl.h
-/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/src/gl.h
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/src/gl.h
 
-/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/src/camera.h
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/src/camera.h
 vecmath.h
 -
 cstdint
 -
 
-/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/src/gl.h
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/src/gl.h
 OpenGL/gl3.h
 -
 GL/glew.h
 -
 
-/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/src/joint.cpp
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/src/joint.cpp
 joint.h
-/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/src/joint.h
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/src/joint.h
 
-/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/src/joint.h
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/src/joint.h
 vector
 -
 vecmath.h
 -
 
-/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/src/main.cpp
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/src/main.cpp
 gl.h
-/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/src/gl.h
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/src/gl.h
 GLFW/glfw3.h
 -
 cmath
@@ -82,31 +82,33 @@ vecmath.h
 nanogui/nanogui.h
 -
 starter2_util.h
-/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/src/starter2_util.h
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/src/starter2_util.h
 camera.h
-/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/src/camera.h
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/src/camera.h
 vertexrecorder.h
-/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/src/vertexrecorder.h
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/src/vertexrecorder.h
 skeletalmodel.h
-/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/src/skeletalmodel.h
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/src/skeletalmodel.h
 
-/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/src/matrixstack.cpp
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/src/matrixstack.cpp
 matrixstack.h
-/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/src/matrixstack.h
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/src/matrixstack.h
 
-/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/src/matrixstack.h
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/src/matrixstack.h
 vector
 -
 vecmath.h
 -
+iostream
+-
 
-/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/src/mesh.cpp
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/src/mesh.cpp
 mesh.h
-/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/src/mesh.h
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/src/mesh.h
 vertexrecorder.h
-/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/src/vertexrecorder.h
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/src/vertexrecorder.h
 
-/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/src/mesh.h
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/src/mesh.h
 vector
 -
 vecmath.h
@@ -120,19 +122,19 @@ fstream
 sstream
 -
 tuple.h
-/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/src/tuple.h
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/src/tuple.h
 
-/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/src/skeletalmodel.cpp
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/src/skeletalmodel.cpp
 skeletalmodel.h
-/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/src/skeletalmodel.h
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/src/skeletalmodel.h
 cassert
 -
 starter2_util.h
-/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/src/starter2_util.h
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/src/starter2_util.h
 vertexrecorder.h
-/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/src/vertexrecorder.h
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/src/vertexrecorder.h
 
-/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/src/skeletalmodel.h
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/src/skeletalmodel.h
 cstdlib
 -
 iostream
@@ -148,23 +150,23 @@ sstream
 vecmath.h
 -
 gl.h
-/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/src/gl.h
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/src/gl.h
 tuple.h
-/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/src/tuple.h
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/src/tuple.h
 joint.h
-/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/src/joint.h
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/src/joint.h
 mesh.h
-/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/src/mesh.h
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/src/mesh.h
 matrixstack.h
-/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/src/matrixstack.h
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/src/matrixstack.h
 camera.h
-/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/src/camera.h
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/src/camera.h
 
-/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/src/starter2_util.cpp
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/src/starter2_util.cpp
 starter2_util.h
-/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/src/starter2_util.h
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/src/starter2_util.h
 gl.h
-/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/src/gl.h
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/src/gl.h
 GLFW/glfw3.h
 -
 lodepng.h
@@ -178,13 +180,13 @@ ctime
 cassert
 -
 
-/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/src/starter2_util.h
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/src/starter2_util.h
 cstdint
 -
 gl.h
-/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/src/gl.h
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/src/gl.h
 
-/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/src/tuple.h
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/src/tuple.h
 cstdarg
 -
 cstdio
@@ -196,23 +198,23 @@ cstring
 iostream
 -
 
-/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/src/vertexrecorder.cpp
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/src/vertexrecorder.cpp
 vertexrecorder.h
-/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/src/vertexrecorder.h
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/src/vertexrecorder.h
 cassert
 -
 cstdint
 -
 gl.h
-/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/src/gl.h
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/src/gl.h
 
-/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/src/vertexrecorder.h
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/src/vertexrecorder.h
 vector
 -
 vecmath.h
 -
 gl.h
-/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/src/gl.h
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/src/gl.h
 
 3rd_party/glfw/include/GLFW/glfw3.h
 stddef.h

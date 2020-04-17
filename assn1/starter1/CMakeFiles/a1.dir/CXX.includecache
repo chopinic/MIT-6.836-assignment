@@ -6,14 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn1/starter1/src/curve.cpp
-curve.h
-/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn1/starter1/src/curve.h
-solve.h
-/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn1/starter1/src/solve.h
-vertexrecorder.h
-/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn1/starter1/src/vertexrecorder.h
-
 /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn1/starter1/src/curve.h
 tuple.h
 /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn1/starter1/src/tuple.h
@@ -28,10 +20,18 @@ OpenGL/gl3.h
 GL/glew.h
 -
 
-/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn1/starter1/src/solve.h
-math.h
--
-stdlib.h
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn1/starter1/src/surf.cpp
+surf.h
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn1/starter1/src/surf.h
+vertexrecorder.h
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn1/starter1/src/vertexrecorder.h
+
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn1/starter1/src/surf.h
+curve.h
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn1/starter1/src/curve.h
+tuple.h
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn1/starter1/src/tuple.h
+iostream
 -
 
 /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn1/starter1/src/tuple.h

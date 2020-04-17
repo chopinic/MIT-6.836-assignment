@@ -22,21 +22,21 @@ namespace ng = ::nanogui;
 
 namespace
 {
-// Constants 
+// Constants
 const int NJOINTS = 18;
-const string jointNames[NJOINTS] = { "Root", "Chest", "Waist", "Neck",
-                                 "Right hip", "Right leg", "Right knee", "Right foot",
-                                 "Left hip", "Left leg", "Left knee", "Left foot",
-                                 "Right collarbone", "Right shoulder", "Right elbow", "Left collarbone", "Left shoulder", "Left elbow" };
+const string jointNames[NJOINTS] = {"Root", "Chest", "Waist", "Neck",
+                                    "Right hip", "Right leg", "Right knee", "Right foot",
+                                    "Left hip", "Left leg", "Left knee", "Left foot",
+                                    "Right collarbone", "Right shoulder", "Right elbow", "Left collarbone", "Left shoulder", "Left elbow"};
 
 // Global variables here.
-GLFWwindow* window;
+GLFWwindow *window;
 ng::Screen *screen;
 Vector3f g_jointangles[NJOINTS];
 
 // This assignment uses a useful camera implementation
 Camera camera;
-SkeletalModel* skeleton;
+SkeletalModel *skeleton;
 
 // most curves are drawn with constant color, and no lighting
 GLuint program_color;
@@ -49,16 +49,18 @@ bool gDrawAxisAlways = false;
 // Declarations of functions whose implementations occur later.
 void drawAxis(void);
 
-static void keyCallback(GLFWwindow* window, int key,
-    int scancode, int action, int mods)
+static void keyCallback(GLFWwindow *window, int key,
+                        int scancode, int action, int mods)
 {
-    if (action == GLFW_RELEASE) { // only handle PRESS and REPEAT
+    if (action == GLFW_RELEASE)
+    { // only handle PRESS and REPEAT
         return;
     }
 
     // Special keys (arrows, CTRL, ...) are documented
     // here: http://www.glfw.org/docs/latest/group__keys.html
-    switch (key) {
+    switch (key)
+    {
     case GLFW_KEY_ESCAPE: // Escape key
         exit(0);
         break;
@@ -81,7 +83,8 @@ static void keyCallback(GLFWwindow* window, int key,
     }
 }
 
-static void mouseCallback(GLFWwindow* window, int button, int action, int mods) {
+static void mouseCallback(GLFWwindow *window, int button, int action, int mods)
+{
     double xd, yd;
     glfwGetCursorPos(window, &xd, &yd);
     int x = (int)xd;
@@ -90,34 +93,39 @@ static void mouseCallback(GLFWwindow* window, int button, int action, int mods) 
     int lstate = glfwGetMouseButton(window, GLFW_MOUSE_BUTTON_LEFT);
     int rstate = glfwGetMouseButton(window, GLFW_MOUSE_BUTTON_RIGHT);
     int mstate = glfwGetMouseButton(window, GLFW_MOUSE_BUTTON_MIDDLE);
-    if (lstate == GLFW_PRESS) {
+    if (lstate == GLFW_PRESS)
+    {
         gMousePressed = true;
         camera.MouseClick(Camera::LEFT, x, y);
     }
-    else if (rstate == GLFW_PRESS) {
+    else if (rstate == GLFW_PRESS)
+    {
         gMousePressed = true;
         camera.MouseClick(Camera::RIGHT, x, y);
     }
-    else if (mstate == GLFW_PRESS) {
+    else if (mstate == GLFW_PRESS)
+    {
         gMousePressed = true;
         camera.MouseClick(Camera::MIDDLE, x, y);
     }
-    else {
+    else
+    {
         gMousePressed = true;
         camera.MouseRelease(x, y);
         gMousePressed = false;
     }
 }
 
-static void motionCallback(GLFWwindow* window, double x, double y)
+static void motionCallback(GLFWwindow *window, double x, double y)
 {
-    if (!gMousePressed) {
+    if (!gMousePressed)
+    {
         return;
     }
     camera.MouseDrag((int)x, (int)y);
 }
 
-void setViewport(GLFWwindow* window)
+void setViewport(GLFWwindow *window)
 {
     int w, h;
     glfwGetFramebufferSize(window, &w, &h);
@@ -201,7 +209,8 @@ void updateMesh()
    Once initialized, the GUI is drawn in the main loop of the
    application.
 */
-void initGUI(GLFWwindow* glfwwin) {
+void initGUI(GLFWwindow *glfwwin)
+{
     // Create a nanogui screen and pass the glfw pointer to initialize
 
     const int FONTSZ = 14;
@@ -210,11 +219,12 @@ void initGUI(GLFWwindow* glfwwin) {
     screen = new ng::Screen();
     screen->initialize(glfwwin, false);
 
-
-    ng::Window* window = nullptr;
-    ng::Widget* animator = nullptr;
-    for (int i = 0; i < NJOINTS; ++i) {
-        if (i == 0 || i == 8) {
+    ng::Window *window = nullptr;
+    ng::Widget *animator = nullptr;
+    for (int i = 0; i < NJOINTS; ++i)
+    {
+        if (i == 0 || i == 8)
+        {
             window = new ng::Window(screen, i == 0 ? "Animator 1" : "Animator 2");
             window->setPosition(ng::Vector2i(i == 0 ? 10 : 800, 10));
             window->setLayout(new ng::BoxLayout(ng::Orientation::Vertical));
@@ -228,8 +238,9 @@ void initGUI(GLFWwindow* glfwwin) {
             animator = new ng::Widget(window);
             animator->setLayout(new ng::BoxLayout(ng::Orientation::Vertical));
         }
-        if (i == 0) {
-            ng::Button* btn = new ng::Button(animator, "Take Screenshot");
+        if (i == 0)
+        {
+            ng::Button *btn = new ng::Button(animator, "Take Screenshot");
             btn->setCallback([glfwwin]() {
                 screencapture(glfwwin);
             });
@@ -238,22 +249,30 @@ void initGUI(GLFWwindow* glfwwin) {
         ng::Widget *jointpanel = new ng::Widget(animator);
         jointpanel->setLayout(new ng::BoxLayout(ng::Orientation::Vertical, ng::Alignment::Minimum, 2, 0));
 
-        ng::Label* label = new ng::Label(jointpanel, jointNames[i]);
+        ng::Label *label = new ng::Label(jointpanel, jointNames[i]);
         label->setFontSize(FONTSZ);
 
-        for (int dim = 0; dim < 3; ++dim) {
+        for (int dim = 0; dim < 3; ++dim)
+        {
 
             ng::Widget *panel = new ng::Widget(jointpanel);
             panel->setLayout(new ng::BoxLayout(ng::Orientation::Horizontal, ng::Alignment::Middle, 3, 10));
 
             char buff[80];
-            switch (dim) {
-            case 0: sprintf(buff, "%s", "x"); break;
-            case 1: sprintf(buff, "%s", "y"); break;
-            case 2: sprintf(buff, "%s", "z"); break;
+            switch (dim)
+            {
+            case 0:
+                sprintf(buff, "%s", "x");
+                break;
+            case 1:
+                sprintf(buff, "%s", "y");
+                break;
+            case 2:
+                sprintf(buff, "%s", "z");
+                break;
             }
 
-            ng::Label* label = new ng::Label(panel, buff);
+            ng::Label *label = new ng::Label(panel, buff);
             label->setFontSize(FONTSZ);
             label->setFixedSize(ng::Vector2i(10, ROWH));
 
@@ -273,7 +292,8 @@ void initGUI(GLFWwindow* glfwwin) {
                 sprintf(buff, "%.2f", g_jointangles[i][dim]);
                 textBox->setValue(buff);
 
-                if (skeleton) {
+                if (skeleton)
+                {
                     // update animation
                     skeleton->setJointTransform(i, g_jointangles[i].x(), g_jointangles[i].y(), g_jointangles[i].z());
                     updateMesh();
@@ -295,81 +315,80 @@ void initGUI(GLFWwindow* glfwwin) {
     // We forward GLFW events to nanoGUI first. If nanoGUI didn't handle
     // the event, we pass it to the handler routine.
     glfwSetCursorPosCallback(glfwwin,
-        [](GLFWwindow* window, double x, double y) {
-        if (gMousePressed) {
-            // sticky mouse gestures
-            motionCallback(window, x, y);
-            return;
-        }
-        if (screen->cursorPosCallbackEvent(x, y)) {
-            return;
-        }
-        motionCallback(window, x, y);
-    }
-    );
+                             [](GLFWwindow *window, double x, double y) {
+                                 if (gMousePressed)
+                                 {
+                                     // sticky mouse gestures
+                                     motionCallback(window, x, y);
+                                     return;
+                                 }
+                                 if (screen->cursorPosCallbackEvent(x, y))
+                                 {
+                                     return;
+                                 }
+                                 motionCallback(window, x, y);
+                             });
 
     glfwSetMouseButtonCallback(glfwwin,
-        [](GLFWwindow* window, int button, int action, int modifiers) {
-        if (screen->mouseButtonCallbackEvent(button, action, modifiers)) {
-            return;
-        }
-        mouseCallback(window, button, action, modifiers);
-    }
-    );
+                               [](GLFWwindow *window, int button, int action, int modifiers) {
+                                   if (screen->mouseButtonCallbackEvent(button, action, modifiers))
+                                   {
+                                       return;
+                                   }
+                                   mouseCallback(window, button, action, modifiers);
+                               });
 
     glfwSetKeyCallback(glfwwin,
-        [](GLFWwindow* window, int key, int scancode, int action, int mods) {
-        if (screen->keyCallbackEvent(key, scancode, action, mods)) {
-            return;
-        }
-        keyCallback(window, key, scancode, action, mods);
-    }
-    );
+                       [](GLFWwindow *window, int key, int scancode, int action, int mods) {
+                           if (screen->keyCallbackEvent(key, scancode, action, mods))
+                           {
+                               return;
+                           }
+                           keyCallback(window, key, scancode, action, mods);
+                       });
 
     glfwSetCharCallback(glfwwin,
-        [](GLFWwindow *, unsigned int codepoint) {
-        screen->charCallbackEvent(codepoint);
-    }
-    );
+                        [](GLFWwindow *, unsigned int codepoint) {
+                            screen->charCallbackEvent(codepoint);
+                        });
 
     glfwSetDropCallback(glfwwin,
-        [](GLFWwindow *, int count, const char **filenames) {
-        screen->dropCallbackEvent(count, filenames);
-    }
-    );
+                        [](GLFWwindow *, int count, const char **filenames) {
+                            screen->dropCallbackEvent(count, filenames);
+                        });
 
     glfwSetScrollCallback(glfwwin,
-        [](GLFWwindow *, double x, double y) {
-        screen->scrollCallbackEvent(x, y);
-    }
-    );
+                          [](GLFWwindow *, double x, double y) {
+                              screen->scrollCallbackEvent(x, y);
+                          });
 
     glfwSetFramebufferSizeCallback(glfwwin,
-        [](GLFWwindow *, int width, int height) {
-        screen->resizeCallbackEvent(width, height);
-    }
-    );
+                                   [](GLFWwindow *, int width, int height) {
+                                       screen->resizeCallbackEvent(width, height);
+                                   });
 }
-void freeGUI() {
+void freeGUI()
+{
     delete screen;
     screen = nullptr;
 }
 
-void loadSkeleton(const std::string& basepath) {
+void loadSkeleton(const std::string &basepath)
+{
     skeleton = new SkeletalModel();
     string skelfile = basepath + ".skel";
     string objfile = basepath + ".obj";
     string attachfile = basepath + ".attach";
     skeleton->load(skelfile.c_str(), objfile.c_str(), attachfile.c_str());
 }
-void freeSkeleton() {
+void freeSkeleton()
+{
     delete skeleton;
     skeleton = nullptr;
 }
-}
+} // namespace
 
-
-int main(int argc, char** argv)
+int main(int argc, char **argv)
 {
     if (argc < 2)
     {
@@ -388,7 +407,8 @@ int main(int argc, char** argv)
     // of OpenGL. All OpenGL programs define a vertex shader
     // and a fragment shader.
     program_color = compileProgram(c_vertexshader, c_fragmentshader_color);
-    if (!program_color) {
+    if (!program_color)
+    {
         printf("Cannot compile program\n");
         return -1;
     }
@@ -400,7 +420,8 @@ int main(int argc, char** argv)
     loadSkeleton(basepath);
 
     // Main Loop
-    while (!glfwWindowShouldClose(window)) {
+    while (!glfwWindowShouldClose(window))
+    {
         // Clear the rendering window
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
@@ -411,7 +432,8 @@ int main(int argc, char** argv)
 
         setViewport(window);
 
-        if (gDrawAxisAlways || gMousePressed) {
+        if (gDrawAxisAlways || gMousePressed)
+        {
             drawAxis();
         }
 

@@ -1,0 +1,15 @@
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/CMakeFiles/rebuild_cache.dir
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/CMakeFiles/edit_cache.dir
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/CMakeFiles/a2.dir
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/3rd_party/glfw/CMakeFiles/rebuild_cache.dir
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/3rd_party/glfw/CMakeFiles/edit_cache.dir
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/3rd_party/glfw/src/CMakeFiles/rebuild_cache.dir
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/3rd_party/glfw/src/CMakeFiles/edit_cache.dir
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/3rd_party/glfw/src/CMakeFiles/glfw.dir
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/3rd_party/nanogui/CMakeFiles/rebuild_cache.dir
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/3rd_party/nanogui/CMakeFiles/edit_cache.dir
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/3rd_party/nanogui/CMakeFiles/nanogui.dir
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/3rd_party/nanogui/CMakeFiles/bin2c.dir
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/vecmath/CMakeFiles/rebuild_cache.dir
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/vecmath/CMakeFiles/edit_cache.dir
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/vecmath/CMakeFiles/vecmath.dir

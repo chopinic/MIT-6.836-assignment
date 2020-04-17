@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "iostream": "cpp",
+        "ostream": "cpp",
+        "vector": "cpp",
+        "algorithm": "cpp",
+        "type_traits": "cpp",
+        "functional": "cpp",
+        "thread": "cpp",
+        "tuple": "cpp",
+        "__config": "cpp",
+        "atomic": "cpp"
+    }
+}

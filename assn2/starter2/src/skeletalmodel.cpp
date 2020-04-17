@@ -6,17 +6,21 @@
 
 using namespace std;
 
-SkeletalModel::SkeletalModel() {
+SkeletalModel::SkeletalModel()
+{
     program = compileProgram(c_vertexshader, c_fragmentshader_light);
-    if (!program) {
+    if (!program)
+    {
         printf("Cannot compile program\n");
         assert(false);
     }
 }
 
-SkeletalModel::~SkeletalModel() {
+SkeletalModel::~SkeletalModel()
+{
     // destructor will release memory when SkeletalModel is deleted
-    while (m_joints.size()) {
+    while (m_joints.size())
+    {
         delete m_joints.back();
         m_joints.pop_back();
     }
@@ -35,7 +39,7 @@ void SkeletalModel::load(const char *skeletonFile, const char *meshFile, const c
     updateCurrentJointToWorldTransforms();
 }
 
-void SkeletalModel::draw(const Camera& camera, bool skeletonVisible)
+void SkeletalModel::draw(const Camera &camera, bool skeletonVisible)
 {
     // draw() gets called whenever a redraw is required
     // (after an update() occurs, when the camera moves, the window is resized, etc)
@@ -47,7 +51,9 @@ void SkeletalModel::draw(const Camera& camera, bool skeletonVisible)
     if (skeletonVisible)
     {
         drawJoints(camera);
+        // cerr<<"Joints finished"<<endl;
         drawSkeleton(camera);
+        // cerr<<"bone finished"<<endl;
     }
     else
     {
@@ -60,11 +66,12 @@ void SkeletalModel::draw(const Camera& camera, bool skeletonVisible)
     glUseProgram(0);
 }
 
-void SkeletalModel::updateShadingUniforms() {
+void SkeletalModel::updateShadingUniforms()
+{
     // UPDATE MATERIAL UNIFORMS
-    GLfloat diffColor[] = { 0.4f, 0.4f, 0.4f, 1 };
-    GLfloat specColor[] = { 0.9f, 0.9f, 0.9f, 1 };
-    GLfloat shininess[] = { 50.0f };
+    GLfloat diffColor[] = {0.4f, 0.4f, 0.4f, 1};
+    GLfloat specColor[] = {0.9f, 0.9f, 0.9f, 1};
+    GLfloat shininess[] = {50.0f};
     int loc = glGetUniformLocation(program, "diffColor");
     glUniform4fv(loc, 1, diffColor);
     loc = glGetUniformLocation(program, "specColor");
@@ -73,21 +80,50 @@ void SkeletalModel::updateShadingUniforms() {
     glUniform1f(loc, shininess[0]);
 
     // UPDATE LIGHT UNIFORMS
-    GLfloat lightPos[] = { 3.0f, 3.0f, 5.0f, 1.0f };
+    GLfloat lightPos[] = {3.0f, 3.0f, 5.0f, 1.0f};
     loc = glGetUniformLocation(program, "lightPos");
     glUniform4fv(loc, 1, lightPos);
 
-    GLfloat lightDiff[] = { 120.0f, 120.0f, 120.0f, 1.0f };
+    GLfloat lightDiff[] = {120.0f, 120.0f, 120.0f, 1.0f};
     loc = glGetUniformLocation(program, "lightDiff");
     glUniform4fv(loc, 1, lightDiff);
 }
 
-void SkeletalModel::loadSkeleton(const char* filename)
+void SkeletalModel::loadSkeleton(const char *filename)
 {
     // Load the skeleton from file here.
+    ifstream in(filename);
+    if (!in)
+    {
+        cerr << "Can't open file " << filename << endl;
+        exit(0);
+    }
+    float x, y, z;
+    int index;
+    while (in >> x >> y >> z >> index)
+    {
+        // cout<<x<<" "<<y<<" "<<z<<" "<<endl;
+        Joint *now;
+        if (index == -1)
+        {
+            m_rootJoint = new Joint;
+            now = m_rootJoint;
+        }
+        else
+        {
+            now = new Joint;
+            m_joints[index]->children.push_back(now);
+        }
+        now->transform = Matrix4f(1, 0, 0, x,
+                                  0, 1, 0, y,
+                                  0, 0, 1, z,
+                                  0, 0, 0, 1);
+        m_joints.push_back(now);
+    }
+    cerr << "Loading file done" << endl;
 }
 
-void SkeletalModel::drawJoints(const Camera& camera)
+void SkeletalModel::drawJoints(const Camera &camera)
 {
     // Draw a sphere at each joint. You will need to add a recursive
     // helper function to traverse the joint hierarchy.
@@ -100,6 +136,9 @@ void SkeletalModel::drawJoints(const Camera& camera)
     // use stack.pop() to revert the stack to the original
     // state.
 
+    tranverseJoint(camera, m_rootJoint);
+    return;
+
     // this is just for illustration:
 
     // translate from top of stack, but doesn't push, since that's not
@@ -111,26 +150,123 @@ void SkeletalModel::drawJoints(const Camera& camera)
     drawSphere(0.025f, 12, 12);
     // didn't push to stack, so no pop() needed
 }
-
-void SkeletalModel::drawSkeleton(const Camera& camera)
+void SkeletalModel::tranverseJoint(const Camera &camera, Joint *now)
 {
-    // Draw cylinders between the joints. You will need to add a recursive 
+    m_matrixStack.push(now->transform);
+    camera.SetUniforms(program, m_matrixStack.top());
+
+    drawSphere(0.025f, 12, 12);
+    for (int i = 0; i < now->children.size(); i++)
+    {
+        tranverseJoint(camera, now->children[i]);
+    }
+    m_matrixStack.pop();
+}
+float getAngle(Vector3f a, Vector3f b)
+{
+    // cout<<a.abs()*b.abs()<<endl;
+    return acos(Vector3f::dot(a, b) / (a.abs() * b.abs()));
+}
+Matrix3f makeTrans(double angle1, double angle2, double angle3)
+{
+    return Matrix3f(1, 0, 0,
+                    0, cos(angle1), -1 * sin(angle1),
+                    0, sin(angle1), cos(angle1)) *
+           Matrix3f(cos(angle2), 0, -1 * sin(angle2),
+                    0, 1, 0,
+                    sin(angle2), 0, cos(angle2)) *
+           Matrix3f(cos(angle3), -1 * sin(angle3), 0,
+                    sin(angle3), cos(angle3), 0,
+                    0, 0, 1);
+}
+Matrix4f makeTran4f(Vector3f sN, Vector3f sB, Vector3f sT, Vector3f sV)
+{
+    Vector3f xx = Vector3f::cross(Vector3f(0, 0, 1), sT);
+    double a = getAngle(xx, Vector3f(1, 0, 0));
+    double b = getAngle(Vector3f(0, 0, 1), sT);
+    double c = getAngle(xx, sB);
+    if (xx[1] <= 0)
+        a = -a;
+    Matrix3f t = makeTrans(0, 0, a) * makeTrans(b, 0, c);
+    Matrix4f ans = Matrix4f(
+        Vector4f(t.getCol(0), 0),
+        Vector4f(t.getCol(1), 0),
+        Vector4f(t.getCol(2), 0),
+        Vector4f(sV, 1));
+}
+
+void SkeletalModel::tranverseBones(const Camera &camera, Joint *now)
+{
+    m_matrixStack.push(now->transform);
+
+    for (int i = 0; i < now->children.size(); i++)
+    {
+        Vector3f V = now->children[i]->transform.getCol(3).xyz();
+        Vector3f T = V;
+        T.normalize();
+        Vector3f N = Vector3f::cross(Vector3f(1, 0, 0), T);
+        if (N.abs() == 0)
+        {
+            N = Vector3f::cross(Vector3f(0, 1, 0), T);
+            if (N.abs() == 0)
+                N = Vector3f::cross(Vector3f(0, 0, 1), T);
+        }
+        N.normalize();
+        Vector3f B = Vector3f::cross(N, T);
+        B.normalize();
+
+        // Cylinder has a different direction from the surface generation
+        Matrix4f rota = Matrix4f(
+            Vector4f(N, 0),
+            Vector4f(T, 0),
+            Vector4f(B, 0),
+            Vector4f(0,0,0,1));
+        // Matrix3f rotat = now->children[i]->transform.getSubmatrix3x3(0,0);
+        // Matrix4f rota = Matrix4f(Vector4f(rotat.getCol(0),0),
+        //                         Vector4f(rotat.getCol(1),0),
+        //                         Vector4f(rotat.getCol(2),0),
+        //                         Vector4f(0,0,0,1));
+        rota = m_matrixStack.top()*rota;
+        camera.SetUniforms(program, rota);
+        drawCylinder(6, 0.02f, V.abs());
+        tranverseBones(camera, now->children[i]);
+    }
+    m_matrixStack.pop();
+
+}
+void SkeletalModel::drawSkeleton(const Camera &camera)
+{
+    // Draw cylinders between the joints. You will need to add a recursive
     // helper function to traverse the joint hierarchy.
     //
     // We recommend using drawCylinder(6, 0.02f, <height>);
     // to draw a cylinder of reasonable diameter.
 
     // you can use the stack with push/pop like this
-    // m_matrixStack.push(Matrix4f::translation(+0.6f, +0.5f, -0.5f))
+    // m_matrixStack.push(Matrix4f::translation(+0.6f, +0.5f, -0.5f));
     // camera.SetUniforms(program, m_matrixStack.top());
     // drawCylinder(6, 0.02f, 0.2f);
-    // callChildFunction();
+    // m_matrixStack.pop();
+
+
+    // m_matrixStack.push(Matrix4f::translation(m_rootJoint->transform.getCol(3).xyz()));
+    tranverseBones(camera, m_rootJoint);
     // m_matrixStack.pop();
 }
 
 void SkeletalModel::setJointTransform(int jointIndex, float rX, float rY, float rZ)
 {
-    // Set the rotation part of the joint's transformation matrix based on the passed in Euler angles.
+    // Set the rotation part of the joint's transformation matrix 
+    // based on the passed in Euler angles.
+    // m_joints[jointIndex]->transform =  m_joints[jointIndex]->transform
+    //                                 * Matrix4f::rotateX(rX) 
+    //                                 * Matrix4f::rotateY(rY)
+    //                                 * Matrix4f::rotateZ(rZ);
+    m_joints[jointIndex]->transform.setSubmatrix3x3(
+        0,
+        0,
+        Matrix3f::rotateX(rX) * Matrix3f::rotateY(rY) * Matrix3f::rotateZ(rZ)
+    );
 }
 
 void SkeletalModel::computeBindWorldToJointTransforms()
@@ -144,6 +280,19 @@ void SkeletalModel::computeBindWorldToJointTransforms()
     // This method should update each joint's bindWorldToJointTransform.
     // You will need to add a recursive helper function to traverse the joint hierarchy.
 
+    m_matrixStack.clear();
+    tranverseB2W(m_rootJoint);
+}
+
+void SkeletalModel::tranverseB2W( Joint *now)
+{
+    m_matrixStack.push(now->transform);
+    now->bindWorldToJointTransform = m_matrixStack.top().inverse();
+    for (int i = 0; i < now->children.size(); i++)
+    {
+        tranverseB2W( now->children[i]);
+    }
+    m_matrixStack.pop();
 }
 
 void SkeletalModel::updateCurrentJointToWorldTransforms()
@@ -156,7 +305,7 @@ void SkeletalModel::updateCurrentJointToWorldTransforms()
     //
     // This method should update each joint's currentJointToWorldTransform.
     // You will need to add a recursive helper function to traverse the joint hierarchy.
-
+    
 }
 
 void SkeletalModel::updateMesh()
@@ -167,4 +316,3 @@ void SkeletalModel::updateMesh()
     // You will need both the bind pose world --> joint transforms.
     // and the current joint --> world transforms.
 }
-

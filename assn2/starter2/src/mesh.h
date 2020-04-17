@@ -11,7 +11,7 @@
 #include "tuple.h"
 
 typedef tuple< unsigned, 3 > Tuple3u;
-
+static int MAX_BUFFER_SIZE = 1000;
 struct Mesh
 {
 	// list of vertices from the OBJ file

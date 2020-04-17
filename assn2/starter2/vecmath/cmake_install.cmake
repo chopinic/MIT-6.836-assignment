@@ -1,4 +1,4 @@
-# Install script for directory: /Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/vecmath
+# Install script for directory: /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/vecmath
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

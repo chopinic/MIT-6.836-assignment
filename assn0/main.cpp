@@ -288,11 +288,7 @@ void loadInput()
                 face.push_back(t);
             }
             vecf.push_back(face);
-            // for(int i = 0 ; i < face.size() ; i++){
-            //     cout<<face[i]<<" ";
-            // }
-            // char k;
-            // cin>>k;
+
             fcot++;
         }
         

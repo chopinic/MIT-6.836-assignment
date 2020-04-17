@@ -129,6 +129,7 @@ Matrix4f gencyl_transform_matrix(CurvePoint p)
 Matrix3f gencyl_normal_transform_matrix(CurvePoint p)
 {
     return gencyl_transform_matrix(p).getSubmatrix3x3(0, 0).inverse().transposed();
+    // return gencyl_transform_matrix(p).getSubmatrix3x3(0, 0);
 }
 
 Surface makeGenCyl(const Curve &profile, const Curve &sweep )

@@ -4,11 +4,40 @@
 
 using namespace std;
 
-void Mesh::load( const char* filename )
+void Mesh::load(const char *filename)
 {
 	// 4.1. load() should populate bindVertices, currentVertices, and faces
-
-	// Add your code here.
+	ifstream in;
+	char buffer[MAX_BUFFER_SIZE];
+	in.open(filename);
+	while (in.getline(buffer, MAX_BUFFER_SIZE))
+	{
+		string s;
+		stringstream ss(buffer);
+		Vector3f temp;
+		GLuint t;
+		ss >> s;
+		if (s == "v")
+		{
+			ss >> temp[0] >> temp[1] >> temp[2];
+			bindVertices.push_back(temp);
+		}
+		else if (s == "vn")
+		{
+			ss >> temp[0] >> temp[1] >> temp[2];
+			// vecn.push_back(temp);
+		}
+		else if (s == "f")
+		{
+			Tuple3u face;
+			ss >> face[0] >> face[1] >> face[2];
+			for (int k = 0; k < 3; k++)
+				face[k]--;
+			faces.push_back(face);
+		}
+	}
+	in.close();
+	cout << "reading done. " << endl;
 
 	// make a copy of the bind vertices as the current vertices
 	currentVertices = bindVertices;
@@ -21,10 +50,43 @@ void Mesh::draw()
 	// Notice that since we have per-triangle normals
 	// rather than the analytical normals from
 	// assignment 1, the appearance is "faceted".
+	VertexRecorder vr;
+	Vector3f color = Vector3f(1,0,0);
+	for (int i = 0; i < faces.size(); i++)
+	{
+		Vector3f nor,a1,a2;
+		Vector3f v0 = bindVertices[faces[i][0]];
+		Vector3f v1 = bindVertices[faces[i][1]];
+		Vector3f v2 = bindVertices[faces[i][2]];
+		a1 = v1-v0;
+		a2 = v2-v1;
+		nor = Vector3f::cross(a1,a2);
+		vr.record(v0,nor,color);
+		vr.record(v1,nor,color);
+		vr.record(v2,nor,color);
+	}
+	vr.draw(GL_TRIANGLES);
 }
 
-void Mesh::loadAttachments( const char* filename, int numJoints )
+void Mesh::loadAttachments(const char *filename, int numJoints)
 {
 	// 4.3. Implement this method to load the per-vertex attachment weights
 	// this method should update m_mesh.attachments
+	ifstream in;
+	char buffer[MAX_BUFFER_SIZE];
+	in.open(filename);
+	while (in.getline(buffer, MAX_BUFFER_SIZE))
+	{
+		string s;
+		stringstream ss(buffer);
+		vector<float> weight;
+		weight.push_back(0);
+		float t;
+		for(int i = 0 ; i < numJoints ; i++){
+			ss>>t;
+			weight.push_back(t);
+		}
+		attachments.push_back(weight);
+	}
+	in.close();
 }

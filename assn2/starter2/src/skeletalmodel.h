@@ -50,7 +50,7 @@ public:
     // 2.3.1. Implement this method to compute a per-joint transform from
     // world-space to joint space in the BIND POSE.
     void computeBindWorldToJointTransforms();
-
+    void tranverseB2W(Joint *j);
     // 2.3.2. Implement this method to compute a per-joint transform from
     // joint space to world space in the CURRENT POSE.
     void updateCurrentJointToWorldTransforms();
@@ -70,6 +70,8 @@ private:
     Mesh m_mesh;
     MatrixStack m_matrixStack;
     GLuint program;
+    void tranverseJoint(const Camera &camera, Joint *now);
+    void tranverseBones(const Camera &camera, Joint *now);
 };
 
 #endif

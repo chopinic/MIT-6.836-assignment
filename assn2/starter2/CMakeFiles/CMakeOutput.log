@@ -354,3 +354,1215 @@ Linking CXX executable cmTC_809e4
 
 Source file was:
 int main() { return 0; }
+The system is: Darwin - 19.0.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is AppleClang, found in "/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is AppleClang, found in "/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cb981/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_cb981.dir/build.make CMakeFiles/cmTC_cb981.dir/build
+Building C object CMakeFiles/cmTC_cb981.dir/testCCompiler.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_cb981.dir/testCCompiler.c.o   -c /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_cb981
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb981.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_cb981.dir/testCCompiler.c.o  -o cmTC_cb981 
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a17d4/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a17d4.dir/build.make CMakeFiles/cmTC_a17d4.dir/build
+Building C object CMakeFiles/cmTC_a17d4.dir/CMakeCCompilerABI.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -v -Wl,-v -o CMakeFiles/cmTC_a17d4.dir/CMakeCCompilerABI.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.17/Modules/CMakeCCompilerABI.c
+Apple clang version 11.0.0 (clang-1100.0.33.17)
+Target: x86_64-apple-darwin19.0.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.15.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=10.15 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -ggnu-pubnames -target-linker-version 530 -v -coverage-notes-file /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_a17d4.dir/CMakeCCompilerABI.c.gcno -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wno-framework-include-private-from-public -Wno-atimport-in-framework-header -Wno-extra-semi-stmt -Wno-quoted-include-in-framework-header -fdebug-compilation-dir /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.15.0 -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_a17d4.dir/CMakeCCompilerABI.c.o -x c /Applications/CMake.app/Contents/share/cmake-3.17/Modules/CMakeCCompilerABI.c
+clang -cc1 version 11.0.0 (clang-1100.0.33.17) default target x86_64-apple-darwin19.0.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_a17d4
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a17d4.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_a17d4.dir/CMakeCCompilerABI.c.o  -o cmTC_a17d4 
+Apple clang version 11.0.0 (clang-1100.0.33.17)
+Target: x86_64-apple-darwin19.0.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.15.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -o cmTC_a17d4 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_a17d4.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-530
+BUILD 18:57:17 Dec 13 2019
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include]
+  end of search list found
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include]
+  implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_a17d4/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a17d4.dir/build.make CMakeFiles/cmTC_a17d4.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_a17d4.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -v -Wl -v -o CMakeFiles/cmTC_a17d4.dir/CMakeCCompilerABI.c.o   -c /Applications/CMake.app/Contents/share/cmake-3.17/Modules/CMakeCCompilerABI.c]
+  ignore line: [Apple clang version 11.0.0 (clang-1100.0.33.17)]
+  ignore line: [Target: x86_64-apple-darwin19.0.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.15.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=10.15 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -ggnu-pubnames -target-linker-version 530 -v -coverage-notes-file /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_a17d4.dir/CMakeCCompilerABI.c.gcno -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wno-framework-include-private-from-public -Wno-atimport-in-framework-header -Wno-extra-semi-stmt -Wno-quoted-include-in-framework-header -fdebug-compilation-dir /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.15.0 -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_a17d4.dir/CMakeCCompilerABI.c.o -x c /Applications/CMake.app/Contents/share/cmake-3.17/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 11.0.0 (clang-1100.0.33.17) default target x86_64-apple-darwin19.0.0]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [Linking C executable cmTC_a17d4]
+  ignore line: [/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a17d4.dir/link.txt --verbose=1]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_a17d4.dir/CMakeCCompilerABI.c.o  -o cmTC_a17d4 ]
+  ignore line: [Apple clang version 11.0.0 (clang-1100.0.33.17)]
+  ignore line: [Target: x86_64-apple-darwin19.0.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.15.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -o cmTC_a17d4 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_a17d4.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.15.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_a17d4] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_a17d4.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib]
+  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib]
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks]
+  implicit libs: []
+  implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks]
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_008bf/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_008bf.dir/build.make CMakeFiles/cmTC_008bf.dir/build
+Building CXX object CMakeFiles/cmTC_008bf.dir/testCXXCompiler.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_008bf.dir/testCXXCompiler.cxx.o -c /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_008bf
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_008bf.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_008bf.dir/testCXXCompiler.cxx.o  -o cmTC_008bf 
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_62a97/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_62a97.dir/build.make CMakeFiles/cmTC_62a97.dir/build
+Building CXX object CMakeFiles/cmTC_62a97.dir/CMakeCXXCompilerABI.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -v -Wl,-v -o CMakeFiles/cmTC_62a97.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CMake.app/Contents/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp
+Apple clang version 11.0.0 (clang-1100.0.33.17)
+Target: x86_64-apple-darwin19.0.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.15.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=10.15 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -ggnu-pubnames -target-linker-version 530 -v -coverage-notes-file /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_62a97.dir/CMakeCXXCompilerABI.cpp.gcno -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -stdlib=libc++ -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1 -Wno-framework-include-private-from-public -Wno-atimport-in-framework-header -Wno-extra-semi-stmt -Wno-quoted-include-in-framework-header -fdeprecated-macro -fdebug-compilation-dir /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.15.0 -fcxx-exceptions -fexceptions -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_62a97.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Applications/CMake.app/Contents/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 11.0.0 (clang-1100.0.33.17) default target x86_64-apple-darwin19.0.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/c++/v1"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking CXX executable cmTC_62a97
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62a97.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_62a97.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_62a97 
+Apple clang version 11.0.0 (clang-1100.0.33.17)
+Target: x86_64-apple-darwin19.0.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.15.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -o cmTC_62a97 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_62a97.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-530
+BUILD 18:57:17 Dec 13 2019
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1]
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include]
+  end of search list found
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include]
+  implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_62a97/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_62a97.dir/build.make CMakeFiles/cmTC_62a97.dir/build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_62a97.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -v -Wl -v -o CMakeFiles/cmTC_62a97.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CMake.app/Contents/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Apple clang version 11.0.0 (clang-1100.0.33.17)]
+  ignore line: [Target: x86_64-apple-darwin19.0.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.15.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=10.15 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -ggnu-pubnames -target-linker-version 530 -v -coverage-notes-file /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_62a97.dir/CMakeCXXCompilerABI.cpp.gcno -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -stdlib=libc++ -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1 -Wno-framework-include-private-from-public -Wno-atimport-in-framework-header -Wno-extra-semi-stmt -Wno-quoted-include-in-framework-header -fdeprecated-macro -fdebug-compilation-dir /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.15.0 -fcxx-exceptions -fexceptions -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_62a97.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Applications/CMake.app/Contents/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 11.0.0 (clang-1100.0.33.17) default target x86_64-apple-darwin19.0.0]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/c++/v1"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [Linking CXX executable cmTC_62a97]
+  ignore line: [/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62a97.dir/link.txt --verbose=1]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_62a97.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_62a97 ]
+  ignore line: [Apple clang version 11.0.0 (clang-1100.0.33.17)]
+  ignore line: [Target: x86_64-apple-darwin19.0.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.15.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -o cmTC_62a97 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_62a97.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.15.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_62a97] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_62a97.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib]
+  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib]
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks]
+  implicit libs: [c++]
+  implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks]
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_80a60/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_80a60.dir/build.make CMakeFiles/cmTC_80a60.dir/build
+Building C object CMakeFiles/cmTC_80a60.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_80a60.dir/CheckIncludeFile.c.o   -c /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_80a60
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80a60.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_80a60.dir/CheckIncludeFile.c.o  -o cmTC_80a60 
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_85ee8/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_85ee8.dir/build.make CMakeFiles/cmTC_85ee8.dir/build
+Building C object CMakeFiles/cmTC_85ee8.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_85ee8.dir/src.c.o   -c /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_85ee8
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85ee8.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_85ee8.dir/src.c.o  -o cmTC_85ee8 
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Performing C++ SOURCE FILE Test HAS_CPP14_FLAG succeeded with the following output:
+Change Dir: /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_38ca7/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_38ca7.dir/build.make CMakeFiles/cmTC_38ca7.dir/build
+Building CXX object CMakeFiles/cmTC_38ca7.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    --std=gnu++11 -g -Wall -Wno-unused-variable -Wall -Wextra -DHAS_CPP14_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -std=c++14 -o CMakeFiles/cmTC_38ca7.dir/src.cxx.o -c /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_38ca7
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38ca7.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   --std=gnu++11 -g -Wall -Wno-unused-variable -Wall -Wextra -DHAS_CPP14_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_38ca7.dir/src.cxx.o  -o cmTC_38ca7 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_CPP11_FLAG succeeded with the following output:
+Change Dir: /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9cb76/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_9cb76.dir/build.make CMakeFiles/cmTC_9cb76.dir/build
+Building CXX object CMakeFiles/cmTC_9cb76.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    --std=gnu++11 -g -Wall -Wno-unused-variable -Wall -Wextra -DHAS_CPP11_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -std=c++11 -o CMakeFiles/cmTC_9cb76.dir/src.cxx.o -c /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9cb76
+/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9cb76.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   --std=gnu++11 -g -Wall -Wno-unused-variable -Wall -Wextra -DHAS_CPP11_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9cb76.dir/src.cxx.o  -o cmTC_9cb76 
+
+
+Source file was:
+int main() { return 0; }
+The system is: Darwin - 19.0.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+note: Using new build system
+note: Planning build
+note: Constructing build description
+warning: Traditional headermap style is no longer supported; please migrate to using separate headermaps and set 'ALWAYS_SEARCH_USER_PATHS' to NO. (in target 'CompilerIdC' from project 'CompilerIdC')
+CreateBuildDirectory /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdC (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdC
+    builtin-create-build-directory /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdC
+
+WriteAuxiliaryFile /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdC
+    write-file /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.hmap
+
+WriteAuxiliaryFile /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-non-framework-target-headers.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdC
+    write-file /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-non-framework-target-headers.hmap
+
+WriteAuxiliaryFile /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-target-headers.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdC
+    write-file /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-target-headers.hmap
+
+WriteAuxiliaryFile /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-own-target-headers.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdC
+    write-file /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-own-target-headers.hmap
+
+WriteAuxiliaryFile /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-generated-files.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdC
+    write-file /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-generated-files.hmap
+
+WriteAuxiliaryFile /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/all-product-headers.yaml (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdC
+    write-file /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/all-product-headers.yaml
+
+WriteAuxiliaryFile /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-project-headers.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdC
+    write-file /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-project-headers.hmap
+
+WriteAuxiliaryFile /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CompilerIdC.LinkFileList (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdC
+    write-file /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CompilerIdC.LinkFileList
+
+CompileC /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CMakeCCompilerId.o /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdC/CMakeCCompilerId.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdC
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -target x86_64-apple-macos10.15 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -iquote /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-generated-files.hmap -I/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-own-target-headers.hmap -I/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-target-headers.hmap -iquote /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-project-headers.hmap -I/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdC/include -I/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources-normal/x86_64 -I/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources/x86_64 -I/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources -F/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdC -MMD -MT dependencies -MF /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CMakeCCompilerId.d --serialize-diagnostics /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CMakeCCompilerId.dia -c /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdC/CMakeCCompilerId.c -o /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CMakeCCompilerId.o
+
+Ld /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC normal x86_64 (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdC
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -target x86_64-apple-macos10.15 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -L/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdC -F/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdC -filelist /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CompilerIdC.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CompilerIdC_lto.o -Xlinker -dependency_info -Xlinker /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CompilerIdC_dependency_info.dat -o /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC
+
+WriteAuxiliaryFile /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdC
+    write-file /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+
+PhaseScriptExecution Run\ Script /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdC
+    /bin/sh -c /Users/yangguang/archive/\\图\\形\\学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+GCC_VERSION=com.apple.compilers.llvm.clang.1_0
+ARCHS=x86_64
+
+RegisterExecutionPolicyException /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdC
+    builtin-RegisterExecutionPolicyException /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC
+note: Execution policy exception registration failed and was skipped: Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted" (in target 'CompilerIdC' from project 'CompilerIdC')
+
+** BUILD SUCCEEDED **
+
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC"
+
+The C compiler identification is AppleClang, found in "/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdC/CompilerIdC"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+note: Using new build system
+note: Planning build
+note: Constructing build description
+warning: Traditional headermap style is no longer supported; please migrate to using separate headermaps and set 'ALWAYS_SEARCH_USER_PATHS' to NO. (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+CreateBuildDirectory /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdCXX (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdCXX
+    builtin-create-build-directory /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdCXX
+
+WriteAuxiliaryFile /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdCXX
+    write-file /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.hmap
+
+WriteAuxiliaryFile /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-non-framework-target-headers.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdCXX
+    write-file /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-non-framework-target-headers.hmap
+
+WriteAuxiliaryFile /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/all-product-headers.yaml (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdCXX
+    write-file /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/all-product-headers.yaml
+
+WriteAuxiliaryFile /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdCXX
+    write-file /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap
+
+WriteAuxiliaryFile /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdCXX
+    write-file /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap
+
+WriteAuxiliaryFile /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdCXX
+    write-file /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap
+
+WriteAuxiliaryFile /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdCXX
+    write-file /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap
+
+WriteAuxiliaryFile /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX.LinkFileList (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdCXX
+    write-file /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX.LinkFileList
+
+CompileC /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.o /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdCXX/CMakeCXXCompilerId.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdCXX
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -target x86_64-apple-macos10.15 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -iquote /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap -I/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap -I/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap -iquote /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap -I/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdCXX/include -I/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources-normal/x86_64 -I/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources/x86_64 -I/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources -F/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdCXX -MMD -MT dependencies -MF /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.d --serialize-diagnostics /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.dia -c /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdCXX/CMakeCXXCompilerId.cpp -o /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.o
+
+Ld /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX normal x86_64 (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdCXX
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -target x86_64-apple-macos10.15 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -L/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdCXX -F/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdCXX -filelist /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX_lto.o -Xlinker -dependency_info -Xlinker /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX_dependency_info.dat -o /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX
+
+WriteAuxiliaryFile /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdCXX
+    write-file /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+
+PhaseScriptExecution Run\ Script /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdCXX
+    /bin/sh -c /Users/yangguang/archive/\\图\\形\\学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+GCC_VERSION=com.apple.compilers.llvm.clang.1_0
+ARCHS=x86_64
+
+RegisterExecutionPolicyException /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdCXX
+    builtin-RegisterExecutionPolicyException /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX
+note: Execution policy exception registration failed and was skipped: Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted" (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+
+** BUILD SUCCEEDED **
+
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX"
+
+The CXX compiler identification is AppleClang, found in "/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/3.17.0/CompilerIdCXX/CompilerIdCXX"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_ce550 -configuration Debug -hideShellScriptEnvironment && User defaults from command line:
+    HideShellScriptEnvironment = YES
+
+Prepare build
+note: Using legacy build system
+=== BUILD TARGET cmTC_ce550 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ce550.build/Objects-normal/x86_64
+write-file /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ce550.build/Objects-normal/x86_64/cmTC_ce550.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_ce550.build/Objects-normal/x86_64/testCCompiler.o testCCompiler.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -target x86_64-apple-macos10.15 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -I/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug/include -I/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ce550.build/DerivedSources-normal/x86_64 -I/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ce550.build/DerivedSources/x86_64 -I/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ce550.build/DerivedSources -F/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ce550.build/Objects-normal/x86_64/testCCompiler.d --serialize-diagnostics /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ce550.build/Objects-normal/x86_64/testCCompiler.dia -c /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/testCCompiler.c -o /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ce550.build/Objects-normal/x86_64/testCCompiler.o
+
+Ld Debug/cmTC_ce550 normal x86_64
+    cd /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -target x86_64-apple-macos10.15 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -L/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug -F/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug -filelist /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ce550.build/Objects-normal/x86_64/cmTC_ce550.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ce550.build/Objects-normal/x86_64/cmTC_ce550_lto.o -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ce550.build/Objects-normal/x86_64/cmTC_ce550_dependency_info.dat -o /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug/cmTC_ce550
+
+ProcessProductPackaging "" CMAKE_TRY_COMPILE.build/Debug/cmTC_ce550.build/cmTC_ce550.xcent
+    cd /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp
+    
+
+Entitlements:
+
+{
+    "com.apple.security.get-task-allow" = 1;
+}
+
+
+    builtin-productPackagingUtility -entitlements -format xml -o /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ce550.build/cmTC_ce550.xcent
+
+CodeSign Debug/cmTC_ce550
+    cd /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp
+    
+Signing Identity:     "-"
+
+    /usr/bin/codesign --force --sign - --entitlements /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ce550.build/cmTC_ce550.xcent --timestamp=none /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug/cmTC_ce550
+
+** BUILD SUCCEEDED **
+
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_bc59b -configuration Debug -hideShellScriptEnvironment && User defaults from command line:
+    HideShellScriptEnvironment = YES
+
+Prepare build
+note: Using legacy build system
+=== BUILD TARGET cmTC_bc59b OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bc59b.build/Objects-normal/x86_64
+write-file /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bc59b.build/Objects-normal/x86_64/cmTC_bc59b.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_bc59b.build/Objects-normal/x86_64/CMakeCCompilerABI.o /Applications/CMake.app/Contents/share/cmake-3.17/Modules/CMakeCCompilerABI.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -target x86_64-apple-macos10.15 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -I/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug/include -I/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bc59b.build/DerivedSources-normal/x86_64 -I/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bc59b.build/DerivedSources/x86_64 -I/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bc59b.build/DerivedSources -F/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug -v -Wl,-v -MMD -MT dependencies -MF /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bc59b.build/Objects-normal/x86_64/CMakeCCompilerABI.d --serialize-diagnostics /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bc59b.build/Objects-normal/x86_64/CMakeCCompilerABI.dia -c /Applications/CMake.app/Contents/share/cmake-3.17/Modules/CMakeCCompilerABI.c -o /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bc59b.build/Objects-normal/x86_64/CMakeCCompilerABI.o
+Apple clang version 11.0.0 (clang-1100.0.33.17)
+Target: x86_64-apple-macos10.15
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.15.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=10.15 -target-cpu penryn -dwarf-column-info -debug-info-kind=standalone -dwarf-version=4 -debugger-tuning=lldb -ggnu-pubnames -target-linker-version 530 -v -coverage-notes-file /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bc59b.build/Objects-normal/x86_64/CMakeCCompilerABI.gcno -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0 -dependency-file /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bc59b.build/Objects-normal/x86_64/CMakeCCompilerABI.d -skip-unused-modulemap-deps -MT dependencies -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -D "CMAKE_INTDIR=\"Debug\"" -I /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug/include -I /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bc59b.build/DerivedSources-normal/x86_64 -I /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bc59b.build/DerivedSources/x86_64 -I /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bc59b.build/DerivedSources -F/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug -O0 -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wdeprecated-declarations -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -Wno-framework-include-private-from-public -Wno-atimport-in-framework-header -Wno-extra-semi-stmt -Wno-quoted-include-in-framework-header -fdebug-compilation-dir /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp -ferror-limit 19 -fmacro-backtrace-limit 0 -fmessage-length 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.15.0 -fpascal-strings -fmax-type-align=16 -fdiagnostics-show-option -fdiagnostics-show-note-include-stack -fasm-blocks -serialize-diagnostic-file /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bc59b.build/Objects-normal/x86_64/CMakeCCompilerABI.dia -o /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bc59b.build/Objects-normal/x86_64/CMakeCCompilerABI.o -x c /Applications/CMake.app/Contents/share/cmake-3.17/Modules/CMakeCCompilerABI.c
+clang -cc1 version 11.0.0 (clang-1100.0.33.17) default target x86_64-apple-darwin19.0.0
+ignoring nonexistent directory "/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug/include"
+ignoring nonexistent directory "/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bc59b.build/DerivedSources-normal/x86_64"
+ignoring nonexistent directory "/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bc59b.build/DerivedSources/x86_64"
+ignoring nonexistent directory "/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bc59b.build/DerivedSources"
+ignoring nonexistent directory "/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+
+Ld Debug/cmTC_bc59b normal x86_64
+    cd /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -target x86_64-apple-macos10.15 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -L/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug -F/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug -filelist /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bc59b.build/Objects-normal/x86_64/cmTC_bc59b.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bc59b.build/Objects-normal/x86_64/cmTC_bc59b_lto.o -Xlinker -no_deduplicate -v -Wl,-v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bc59b.build/Objects-normal/x86_64/cmTC_bc59b_dependency_info.dat -o /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug/cmTC_bc59b
+Apple clang version 11.0.0 (clang-1100.0.33.17)
+Target: x86_64-apple-macos10.15
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.15.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -o /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug/cmTC_bc59b -L/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug -filelist /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bc59b.build/Objects-normal/x86_64/cmTC_bc59b.LinkFileList -object_path_lto /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bc59b.build/Objects-normal/x86_64/cmTC_bc59b_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bc59b.build/Objects-normal/x86_64/cmTC_bc59b_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/lib/darwin/libclang_rt.osx.a -F/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug
+@(#)PROGRAM:ld  PROJECT:ld64-530
+BUILD 18:57:17 Dec 13 2019
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib
+Framework search paths:
+	/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/
+
+ProcessProductPackaging "" CMAKE_TRY_COMPILE.build/Debug/cmTC_bc59b.build/cmTC_bc59b.xcent
+    cd /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp
+    
+
+Entitlements:
+
+{
+    "com.apple.security.get-task-allow" = 1;
+}
+
+
+    builtin-productPackagingUtility -entitlements -format xml -o /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bc59b.build/cmTC_bc59b.xcent
+
+CodeSign Debug/cmTC_bc59b
+    cd /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp
+    
+Signing Identity:     "-"
+
+    /usr/bin/codesign --force --sign - --entitlements /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bc59b.build/cmTC_bc59b.xcent --timestamp=none /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug/cmTC_bc59b
+
+** BUILD SUCCEEDED **
+
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include]
+  end of search list found
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include]
+  implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_bc59b -configuration Debug -hideShellScriptEnvironment && User defaults from command line:]
+  ignore line: [    HideShellScriptEnvironment = YES]
+  ignore line: []
+  ignore line: [Prepare build]
+  ignore line: [note: Using legacy build system]
+  ignore line: [=== BUILD TARGET cmTC_bc59b OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===]
+  ignore line: []
+  ignore line: [Check dependencies]
+  ignore line: []
+  ignore line: [Write auxiliary files]
+  ignore line: [/bin/mkdir -p /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bc59b.build/Objects-normal/x86_64]
+  ignore line: [write-file /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bc59b.build/Objects-normal/x86_64/cmTC_bc59b.LinkFileList]
+  ignore line: []
+  ignore line: [CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_bc59b.build/Objects-normal/x86_64/CMakeCCompilerABI.o /Applications/CMake.app/Contents/share/cmake-3.17/Modules/CMakeCCompilerABI.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler]
+  ignore line: [    cd /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -target x86_64-apple-macos10.15 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -I/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug/include -I/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bc59b.build/DerivedSources-normal/x86_64 -I/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bc59b.build/DerivedSources/x86_64 -I/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bc59b.build/DerivedSources -F/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug -v -Wl -v -MMD -MT dependencies -MF /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bc59b.build/Objects-normal/x86_64/CMakeCCompilerABI.d --serialize-diagnostics /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bc59b.build/Objects-normal/x86_64/CMakeCCompilerABI.dia -c /Applications/CMake.app/Contents/share/cmake-3.17/Modules/CMakeCCompilerABI.c -o /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bc59b.build/Objects-normal/x86_64/CMakeCCompilerABI.o]
+  ignore line: [Apple clang version 11.0.0 (clang-1100.0.33.17)]
+  ignore line: [Target: x86_64-apple-macos10.15]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.15.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=10.15 -target-cpu penryn -dwarf-column-info -debug-info-kind=standalone -dwarf-version=4 -debugger-tuning=lldb -ggnu-pubnames -target-linker-version 530 -v -coverage-notes-file /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bc59b.build/Objects-normal/x86_64/CMakeCCompilerABI.gcno -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0 -dependency-file /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bc59b.build/Objects-normal/x86_64/CMakeCCompilerABI.d -skip-unused-modulemap-deps -MT dependencies -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -D "CMAKE_INTDIR=\"Debug\"" -I /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug/include -I /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bc59b.build/DerivedSources-normal/x86_64 -I /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bc59b.build/DerivedSources/x86_64 -I /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bc59b.build/DerivedSources -F/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug -O0 -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wdeprecated-declarations -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -Wno-framework-include-private-from-public -Wno-atimport-in-framework-header -Wno-extra-semi-stmt -Wno-quoted-include-in-framework-header -fdebug-compilation-dir /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp -ferror-limit 19 -fmacro-backtrace-limit 0 -fmessage-length 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.15.0 -fpascal-strings -fmax-type-align=16 -fdiagnostics-show-option -fdiagnostics-show-note-include-stack -fasm-blocks -serialize-diagnostic-file /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bc59b.build/Objects-normal/x86_64/CMakeCCompilerABI.dia -o /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bc59b.build/Objects-normal/x86_64/CMakeCCompilerABI.o -x c /Applications/CMake.app/Contents/share/cmake-3.17/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 11.0.0 (clang-1100.0.33.17) default target x86_64-apple-darwin19.0.0]
+  ignore line: [ignoring nonexistent directory "/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug/include"]
+  ignore line: [ignoring nonexistent directory "/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bc59b.build/DerivedSources-normal/x86_64"]
+  ignore line: [ignoring nonexistent directory "/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bc59b.build/DerivedSources/x86_64"]
+  ignore line: [ignoring nonexistent directory "/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bc59b.build/DerivedSources"]
+  ignore line: [ignoring nonexistent directory "/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: []
+  ignore line: [Ld Debug/cmTC_bc59b normal x86_64]
+  ignore line: [    cd /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -target x86_64-apple-macos10.15 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -L/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug -F/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug -filelist /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bc59b.build/Objects-normal/x86_64/cmTC_bc59b.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bc59b.build/Objects-normal/x86_64/cmTC_bc59b_lto.o -Xlinker -no_deduplicate -v -Wl -v -Wl -search_paths_first -Wl -headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bc59b.build/Objects-normal/x86_64/cmTC_bc59b_dependency_info.dat -o /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug/cmTC_bc59b]
+  ignore line: [Apple clang version 11.0.0 (clang-1100.0.33.17)]
+  ignore line: [Target: x86_64-apple-macos10.15]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  reduced line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.15.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -o /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug/cmTC_bc59b -L/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug -filelist /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bc59b.build/Objects-normal/x86_64/cmTC_bc59b.LinkFileList -object_path_lto /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bc59b.build/Objects-normal/x86_64/cmTC_bc59b_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bc59b.build/Objects-normal/x86_64/cmTC_bc59b_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/lib/darwin/libclang_rt.osx.a -F/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug]
+            to: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.15.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -o /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug/cmTC_bc59b -filelist /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bc59b.build/Objects-normal/x86_64/cmTC_bc59b.LinkFileList -object_path_lto /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bc59b.build/Objects-normal/x86_64/cmTC_bc59b_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bc59b.build/Objects-normal/x86_64/cmTC_bc59b_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/lib/darwin/libclang_rt.osx.a ]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.15.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -o /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug/cmTC_bc59b -filelist /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bc59b.build/Objects-normal/x86_64/cmTC_bc59b.LinkFileList -object_path_lto /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bc59b.build/Objects-normal/x86_64/cmTC_bc59b_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bc59b.build/Objects-normal/x86_64/cmTC_bc59b_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/lib/darwin/libclang_rt.osx.a ]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.15.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug/cmTC_bc59b] ==> ignore
+    arg [-filelist] ==> ignore
+    arg [/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bc59b.build/Objects-normal/x86_64/cmTC_bc59b.LinkFileList] ==> ignore
+    arg [-object_path_lto] ==> ignore
+    arg [/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bc59b.build/Objects-normal/x86_64/cmTC_bc59b_lto.o] ==> ignore
+    arg [-no_deduplicate] ==> ignore
+    arg [-v] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-dependency_info] ==> ignore
+    arg [/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bc59b.build/Objects-normal/x86_64/cmTC_bc59b_dependency_info.dat] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib]
+  Framework search paths: [;/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug] ==> [/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug], skipping non-system directory
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib]
+  collapse framework dir [/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug] ==> [/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug], skipping non-system directory
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks]
+  implicit libs: []
+  implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks]
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_8f89c -configuration Debug -hideShellScriptEnvironment && User defaults from command line:
+    HideShellScriptEnvironment = YES
+
+Prepare build
+note: Using legacy build system
+=== BUILD TARGET cmTC_8f89c OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_8f89c.build/Objects-normal/x86_64
+write-file /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_8f89c.build/Objects-normal/x86_64/cmTC_8f89c.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_8f89c.build/Objects-normal/x86_64/testCXXCompiler.o testCXXCompiler.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -target x86_64-apple-macos10.15 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -I/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug/include -I/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_8f89c.build/DerivedSources-normal/x86_64 -I/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_8f89c.build/DerivedSources/x86_64 -I/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_8f89c.build/DerivedSources -F/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_8f89c.build/Objects-normal/x86_64/testCXXCompiler.d --serialize-diagnostics /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_8f89c.build/Objects-normal/x86_64/testCXXCompiler.dia -c /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/testCXXCompiler.cxx -o /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_8f89c.build/Objects-normal/x86_64/testCXXCompiler.o
+
+Ld Debug/cmTC_8f89c normal x86_64
+    cd /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -target x86_64-apple-macos10.15 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -L/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug -F/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug -filelist /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_8f89c.build/Objects-normal/x86_64/cmTC_8f89c.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_8f89c.build/Objects-normal/x86_64/cmTC_8f89c_lto.o -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_8f89c.build/Objects-normal/x86_64/cmTC_8f89c_dependency_info.dat -o /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug/cmTC_8f89c
+
+ProcessProductPackaging "" CMAKE_TRY_COMPILE.build/Debug/cmTC_8f89c.build/cmTC_8f89c.xcent
+    cd /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp
+    
+
+Entitlements:
+
+{
+    "com.apple.security.get-task-allow" = 1;
+}
+
+
+    builtin-productPackagingUtility -entitlements -format xml -o /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_8f89c.build/cmTC_8f89c.xcent
+
+CodeSign Debug/cmTC_8f89c
+    cd /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp
+    
+Signing Identity:     "-"
+
+    /usr/bin/codesign --force --sign - --entitlements /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_8f89c.build/cmTC_8f89c.xcent --timestamp=none /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug/cmTC_8f89c
+
+** BUILD SUCCEEDED **
+
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_fc6b0 -configuration Debug -hideShellScriptEnvironment && User defaults from command line:
+    HideShellScriptEnvironment = YES
+
+Prepare build
+note: Using legacy build system
+=== BUILD TARGET cmTC_fc6b0 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fc6b0.build/Objects-normal/x86_64
+write-file /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fc6b0.build/Objects-normal/x86_64/cmTC_fc6b0.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_fc6b0.build/Objects-normal/x86_64/CMakeCXXCompilerABI.o /Applications/CMake.app/Contents/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -target x86_64-apple-macos10.15 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -I/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug/include -I/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fc6b0.build/DerivedSources-normal/x86_64 -I/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fc6b0.build/DerivedSources/x86_64 -I/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fc6b0.build/DerivedSources -F/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug -v -Wl,-v -MMD -MT dependencies -MF /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fc6b0.build/Objects-normal/x86_64/CMakeCXXCompilerABI.d --serialize-diagnostics /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fc6b0.build/Objects-normal/x86_64/CMakeCXXCompilerABI.dia -c /Applications/CMake.app/Contents/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp -o /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fc6b0.build/Objects-normal/x86_64/CMakeCXXCompilerABI.o
+Apple clang version 11.0.0 (clang-1100.0.33.17)
+Target: x86_64-apple-macos10.15
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.15.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=10.15 -target-cpu penryn -dwarf-column-info -debug-info-kind=standalone -dwarf-version=4 -debugger-tuning=lldb -ggnu-pubnames -target-linker-version 530 -v -coverage-notes-file /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fc6b0.build/Objects-normal/x86_64/CMakeCXXCompilerABI.gcno -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0 -dependency-file /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fc6b0.build/Objects-normal/x86_64/CMakeCXXCompilerABI.d -skip-unused-modulemap-deps -MT dependencies -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -D "CMAKE_INTDIR=\"Debug\"" -I /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug/include -I /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fc6b0.build/DerivedSources-normal/x86_64 -I /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fc6b0.build/DerivedSources/x86_64 -I /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fc6b0.build/DerivedSources -F/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug -stdlib=libc++ -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1 -O0 -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -Wno-framework-include-private-from-public -Wno-atimport-in-framework-header -Wno-extra-semi-stmt -Wno-quoted-include-in-framework-header -fdeprecated-macro -fdebug-compilation-dir /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp -ferror-limit 19 -fmacro-backtrace-limit 0 -fmessage-length 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.15.0 -fcxx-exceptions -fexceptions -fpascal-strings -fmax-type-align=16 -fdiagnostics-show-option -fdiagnostics-show-note-include-stack -fasm-blocks -serialize-diagnostic-file /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fc6b0.build/Objects-normal/x86_64/CMakeCXXCompilerABI.dia -o /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fc6b0.build/Objects-normal/x86_64/CMakeCXXCompilerABI.o -x c++ /Applications/CMake.app/Contents/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 11.0.0 (clang-1100.0.33.17) default target x86_64-apple-darwin19.0.0
+ignoring nonexistent directory "/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug/include"
+ignoring nonexistent directory "/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fc6b0.build/DerivedSources-normal/x86_64"
+ignoring nonexistent directory "/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fc6b0.build/DerivedSources/x86_64"
+ignoring nonexistent directory "/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fc6b0.build/DerivedSources"
+ignoring nonexistent directory "/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/c++/v1"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+
+Ld Debug/cmTC_fc6b0 normal x86_64
+    cd /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -target x86_64-apple-macos10.15 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -L/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug -F/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug -filelist /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fc6b0.build/Objects-normal/x86_64/cmTC_fc6b0.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fc6b0.build/Objects-normal/x86_64/cmTC_fc6b0_lto.o -Xlinker -no_deduplicate -v -Wl,-v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fc6b0.build/Objects-normal/x86_64/cmTC_fc6b0_dependency_info.dat -o /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug/cmTC_fc6b0
+Apple clang version 11.0.0 (clang-1100.0.33.17)
+Target: x86_64-apple-macos10.15
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.15.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -o /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug/cmTC_fc6b0 -L/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug -filelist /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fc6b0.build/Objects-normal/x86_64/cmTC_fc6b0.LinkFileList -object_path_lto /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fc6b0.build/Objects-normal/x86_64/cmTC_fc6b0_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fc6b0.build/Objects-normal/x86_64/cmTC_fc6b0_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/lib/darwin/libclang_rt.osx.a -F/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug
+@(#)PROGRAM:ld  PROJECT:ld64-530
+BUILD 18:57:17 Dec 13 2019
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib
+Framework search paths:
+	/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/
+
+ProcessProductPackaging "" CMAKE_TRY_COMPILE.build/Debug/cmTC_fc6b0.build/cmTC_fc6b0.xcent
+    cd /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp
+    
+
+Entitlements:
+
+{
+    "com.apple.security.get-task-allow" = 1;
+}
+
+
+    builtin-productPackagingUtility -entitlements -format xml -o /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fc6b0.build/cmTC_fc6b0.xcent
+
+CodeSign Debug/cmTC_fc6b0
+    cd /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp
+    
+Signing Identity:     "-"
+
+    /usr/bin/codesign --force --sign - --entitlements /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fc6b0.build/cmTC_fc6b0.xcent --timestamp=none /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug/cmTC_fc6b0
+
+** BUILD SUCCEEDED **
+
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1]
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include]
+  end of search list found
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include]
+  implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_fc6b0 -configuration Debug -hideShellScriptEnvironment && User defaults from command line:]
+  ignore line: [    HideShellScriptEnvironment = YES]
+  ignore line: []
+  ignore line: [Prepare build]
+  ignore line: [note: Using legacy build system]
+  ignore line: [=== BUILD TARGET cmTC_fc6b0 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===]
+  ignore line: []
+  ignore line: [Check dependencies]
+  ignore line: []
+  ignore line: [Write auxiliary files]
+  ignore line: [/bin/mkdir -p /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fc6b0.build/Objects-normal/x86_64]
+  ignore line: [write-file /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fc6b0.build/Objects-normal/x86_64/cmTC_fc6b0.LinkFileList]
+  ignore line: []
+  ignore line: [CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_fc6b0.build/Objects-normal/x86_64/CMakeCXXCompilerABI.o /Applications/CMake.app/Contents/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler]
+  ignore line: [    cd /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -target x86_64-apple-macos10.15 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -I/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug/include -I/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fc6b0.build/DerivedSources-normal/x86_64 -I/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fc6b0.build/DerivedSources/x86_64 -I/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fc6b0.build/DerivedSources -F/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug -v -Wl -v -MMD -MT dependencies -MF /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fc6b0.build/Objects-normal/x86_64/CMakeCXXCompilerABI.d --serialize-diagnostics /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fc6b0.build/Objects-normal/x86_64/CMakeCXXCompilerABI.dia -c /Applications/CMake.app/Contents/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp -o /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fc6b0.build/Objects-normal/x86_64/CMakeCXXCompilerABI.o]
+  ignore line: [Apple clang version 11.0.0 (clang-1100.0.33.17)]
+  ignore line: [Target: x86_64-apple-macos10.15]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.15.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=10.15 -target-cpu penryn -dwarf-column-info -debug-info-kind=standalone -dwarf-version=4 -debugger-tuning=lldb -ggnu-pubnames -target-linker-version 530 -v -coverage-notes-file /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fc6b0.build/Objects-normal/x86_64/CMakeCXXCompilerABI.gcno -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0 -dependency-file /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fc6b0.build/Objects-normal/x86_64/CMakeCXXCompilerABI.d -skip-unused-modulemap-deps -MT dependencies -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -D "CMAKE_INTDIR=\"Debug\"" -I /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug/include -I /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fc6b0.build/DerivedSources-normal/x86_64 -I /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fc6b0.build/DerivedSources/x86_64 -I /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fc6b0.build/DerivedSources -F/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug -stdlib=libc++ -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1 -O0 -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -Wno-framework-include-private-from-public -Wno-atimport-in-framework-header -Wno-extra-semi-stmt -Wno-quoted-include-in-framework-header -fdeprecated-macro -fdebug-compilation-dir /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp -ferror-limit 19 -fmacro-backtrace-limit 0 -fmessage-length 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.15.0 -fcxx-exceptions -fexceptions -fpascal-strings -fmax-type-align=16 -fdiagnostics-show-option -fdiagnostics-show-note-include-stack -fasm-blocks -serialize-diagnostic-file /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fc6b0.build/Objects-normal/x86_64/CMakeCXXCompilerABI.dia -o /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fc6b0.build/Objects-normal/x86_64/CMakeCXXCompilerABI.o -x c++ /Applications/CMake.app/Contents/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 11.0.0 (clang-1100.0.33.17) default target x86_64-apple-darwin19.0.0]
+  ignore line: [ignoring nonexistent directory "/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug/include"]
+  ignore line: [ignoring nonexistent directory "/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fc6b0.build/DerivedSources-normal/x86_64"]
+  ignore line: [ignoring nonexistent directory "/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fc6b0.build/DerivedSources/x86_64"]
+  ignore line: [ignoring nonexistent directory "/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fc6b0.build/DerivedSources"]
+  ignore line: [ignoring nonexistent directory "/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/c++/v1"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: []
+  ignore line: [Ld Debug/cmTC_fc6b0 normal x86_64]
+  ignore line: [    cd /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -target x86_64-apple-macos10.15 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -L/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug -F/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug -filelist /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fc6b0.build/Objects-normal/x86_64/cmTC_fc6b0.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fc6b0.build/Objects-normal/x86_64/cmTC_fc6b0_lto.o -Xlinker -no_deduplicate -v -Wl -v -Wl -search_paths_first -Wl -headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fc6b0.build/Objects-normal/x86_64/cmTC_fc6b0_dependency_info.dat -o /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug/cmTC_fc6b0]
+  ignore line: [Apple clang version 11.0.0 (clang-1100.0.33.17)]
+  ignore line: [Target: x86_64-apple-macos10.15]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  reduced line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.15.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -o /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug/cmTC_fc6b0 -L/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug -filelist /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fc6b0.build/Objects-normal/x86_64/cmTC_fc6b0.LinkFileList -object_path_lto /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fc6b0.build/Objects-normal/x86_64/cmTC_fc6b0_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fc6b0.build/Objects-normal/x86_64/cmTC_fc6b0_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/lib/darwin/libclang_rt.osx.a -F/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug]
+            to: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.15.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -o /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug/cmTC_fc6b0 -filelist /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fc6b0.build/Objects-normal/x86_64/cmTC_fc6b0.LinkFileList -object_path_lto /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fc6b0.build/Objects-normal/x86_64/cmTC_fc6b0_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fc6b0.build/Objects-normal/x86_64/cmTC_fc6b0_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/lib/darwin/libclang_rt.osx.a ]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.15.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -o /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug/cmTC_fc6b0 -filelist /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fc6b0.build/Objects-normal/x86_64/cmTC_fc6b0.LinkFileList -object_path_lto /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fc6b0.build/Objects-normal/x86_64/cmTC_fc6b0_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fc6b0.build/Objects-normal/x86_64/cmTC_fc6b0_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/lib/darwin/libclang_rt.osx.a ]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.15.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug/cmTC_fc6b0] ==> ignore
+    arg [-filelist] ==> ignore
+    arg [/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fc6b0.build/Objects-normal/x86_64/cmTC_fc6b0.LinkFileList] ==> ignore
+    arg [-object_path_lto] ==> ignore
+    arg [/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fc6b0.build/Objects-normal/x86_64/cmTC_fc6b0_lto.o] ==> ignore
+    arg [-no_deduplicate] ==> ignore
+    arg [-v] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-dependency_info] ==> ignore
+    arg [/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_fc6b0.build/Objects-normal/x86_64/cmTC_fc6b0_dependency_info.dat] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib]
+  Framework search paths: [;/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug] ==> [/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug], skipping non-system directory
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib]
+  collapse framework dir [/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug] ==> [/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug], skipping non-system directory
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks]
+  implicit libs: [c++]
+  implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks]
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_7b645 -configuration Debug -hideShellScriptEnvironment && User defaults from command line:
+    HideShellScriptEnvironment = YES
+
+Prepare build
+note: Using legacy build system
+=== BUILD TARGET cmTC_7b645 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7b645.build/Objects-normal/x86_64
+write-file /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7b645.build/Objects-normal/x86_64/cmTC_7b645.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_7b645.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -target x86_64-apple-macos10.15 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -I/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug/include -I/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7b645.build/DerivedSources-normal/x86_64 -I/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7b645.build/DerivedSources/x86_64 -I/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7b645.build/DerivedSources -F/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7b645.build/Objects-normal/x86_64/CheckIncludeFile.d --serialize-diagnostics /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7b645.build/Objects-normal/x86_64/CheckIncludeFile.dia -c /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CheckIncludeFile.c -o /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7b645.build/Objects-normal/x86_64/CheckIncludeFile.o
+
+Ld Debug/cmTC_7b645 normal x86_64
+    cd /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -target x86_64-apple-macos10.15 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -L/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug -F/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug -filelist /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7b645.build/Objects-normal/x86_64/cmTC_7b645.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7b645.build/Objects-normal/x86_64/cmTC_7b645_lto.o -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7b645.build/Objects-normal/x86_64/cmTC_7b645_dependency_info.dat -o /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug/cmTC_7b645
+
+ProcessProductPackaging "" CMAKE_TRY_COMPILE.build/Debug/cmTC_7b645.build/cmTC_7b645.xcent
+    cd /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp
+    
+
+Entitlements:
+
+{
+    "com.apple.security.get-task-allow" = 1;
+}
+
+
+    builtin-productPackagingUtility -entitlements -format xml -o /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7b645.build/cmTC_7b645.xcent
+
+CodeSign Debug/cmTC_7b645
+    cd /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp
+    
+Signing Identity:     "-"
+
+    /usr/bin/codesign --force --sign - --entitlements /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7b645.build/cmTC_7b645.xcent --timestamp=none /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug/cmTC_7b645
+
+** BUILD SUCCEEDED **
+
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_2951a -configuration Debug -hideShellScriptEnvironment && User defaults from command line:
+    HideShellScriptEnvironment = YES
+
+Prepare build
+note: Using legacy build system
+=== BUILD TARGET cmTC_2951a OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2951a.build/Objects-normal/x86_64
+write-file /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2951a.build/Objects-normal/x86_64/cmTC_2951a.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_2951a.build/Objects-normal/x86_64/src.o src.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -target x86_64-apple-macos10.15 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -I/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug/include -I/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2951a.build/DerivedSources-normal/x86_64 -I/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2951a.build/DerivedSources/x86_64 -I/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2951a.build/DerivedSources -F/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug -DCMAKE_HAVE_LIBC_PTHREAD -MMD -MT dependencies -MF /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2951a.build/Objects-normal/x86_64/src.d --serialize-diagnostics /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2951a.build/Objects-normal/x86_64/src.dia -c /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/src.c -o /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2951a.build/Objects-normal/x86_64/src.o
+
+Ld Debug/cmTC_2951a normal x86_64
+    cd /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -target x86_64-apple-macos10.15 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -L/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug -F/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug -filelist /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2951a.build/Objects-normal/x86_64/cmTC_2951a.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2951a.build/Objects-normal/x86_64/cmTC_2951a_lto.o -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2951a.build/Objects-normal/x86_64/cmTC_2951a_dependency_info.dat -o /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug/cmTC_2951a
+
+ProcessProductPackaging "" CMAKE_TRY_COMPILE.build/Debug/cmTC_2951a.build/cmTC_2951a.xcent
+    cd /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp
+    
+
+Entitlements:
+
+{
+    "com.apple.security.get-task-allow" = 1;
+}
+
+
+    builtin-productPackagingUtility -entitlements -format xml -o /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2951a.build/cmTC_2951a.xcent
+
+CodeSign Debug/cmTC_2951a
+    cd /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp
+    
+Signing Identity:     "-"
+
+    /usr/bin/codesign --force --sign - --entitlements /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2951a.build/cmTC_2951a.xcent --timestamp=none /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug/cmTC_2951a
+
+** BUILD SUCCEEDED **
+
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Performing C++ SOURCE FILE Test HAS_CPP14_FLAG succeeded with the following output:
+Change Dir: /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_284c0 -configuration Debug -hideShellScriptEnvironment && User defaults from command line:
+    HideShellScriptEnvironment = YES
+
+Prepare build
+note: Using legacy build system
+=== BUILD TARGET cmTC_284c0 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_284c0.build/Objects-normal/x86_64
+write-file /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_284c0.build/Objects-normal/x86_64/cmTC_284c0.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_284c0.build/Objects-normal/x86_64/src.o src.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -target x86_64-apple-macos10.15 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -I/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug/include -I/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_284c0.build/DerivedSources-normal/x86_64 -I/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_284c0.build/DerivedSources/x86_64 -I/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_284c0.build/DerivedSources -F/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug --std=gnu++11 -Wall -Wno-unused-variable -Wall -Wextra -DHAS_CPP14_FLAG -std=c++14 -MMD -MT dependencies -MF /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_284c0.build/Objects-normal/x86_64/src.d --serialize-diagnostics /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_284c0.build/Objects-normal/x86_64/src.dia -c /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/src.cxx -o /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_284c0.build/Objects-normal/x86_64/src.o
+
+Ld Debug/cmTC_284c0 normal x86_64
+    cd /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -target x86_64-apple-macos10.15 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -L/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug -F/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug -filelist /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_284c0.build/Objects-normal/x86_64/cmTC_284c0.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_284c0.build/Objects-normal/x86_64/cmTC_284c0_lto.o -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_284c0.build/Objects-normal/x86_64/cmTC_284c0_dependency_info.dat -o /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug/cmTC_284c0
+
+ProcessProductPackaging "" CMAKE_TRY_COMPILE.build/Debug/cmTC_284c0.build/cmTC_284c0.xcent
+    cd /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp
+    
+
+Entitlements:
+
+{
+    "com.apple.security.get-task-allow" = 1;
+}
+
+
+    builtin-productPackagingUtility -entitlements -format xml -o /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_284c0.build/cmTC_284c0.xcent
+
+CodeSign Debug/cmTC_284c0
+    cd /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp
+    
+Signing Identity:     "-"
+
+    /usr/bin/codesign --force --sign - --entitlements /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_284c0.build/cmTC_284c0.xcent --timestamp=none /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug/cmTC_284c0
+
+** BUILD SUCCEEDED **
+
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_CPP11_FLAG succeeded with the following output:
+Change Dir: /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_609f5 -configuration Debug -hideShellScriptEnvironment && User defaults from command line:
+    HideShellScriptEnvironment = YES
+
+Prepare build
+note: Using legacy build system
+=== BUILD TARGET cmTC_609f5 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_609f5.build/Objects-normal/x86_64
+write-file /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_609f5.build/Objects-normal/x86_64/cmTC_609f5.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_609f5.build/Objects-normal/x86_64/src.o src.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -target x86_64-apple-macos10.15 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -I/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug/include -I/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_609f5.build/DerivedSources-normal/x86_64 -I/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_609f5.build/DerivedSources/x86_64 -I/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_609f5.build/DerivedSources -F/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug --std=gnu++11 -Wall -Wno-unused-variable -Wall -Wextra -DHAS_CPP11_FLAG -std=c++11 -MMD -MT dependencies -MF /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_609f5.build/Objects-normal/x86_64/src.d --serialize-diagnostics /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_609f5.build/Objects-normal/x86_64/src.dia -c /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/src.cxx -o /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_609f5.build/Objects-normal/x86_64/src.o
+
+Ld Debug/cmTC_609f5 normal x86_64
+    cd /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -target x86_64-apple-macos10.15 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -L/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug -F/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug -filelist /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_609f5.build/Objects-normal/x86_64/cmTC_609f5.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_609f5.build/Objects-normal/x86_64/cmTC_609f5_lto.o -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_609f5.build/Objects-normal/x86_64/cmTC_609f5_dependency_info.dat -o /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug/cmTC_609f5
+
+ProcessProductPackaging "" CMAKE_TRY_COMPILE.build/Debug/cmTC_609f5.build/cmTC_609f5.xcent
+    cd /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp
+    
+
+Entitlements:
+
+{
+    "com.apple.security.get-task-allow" = 1;
+}
+
+
+    builtin-productPackagingUtility -entitlements -format xml -o /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_609f5.build/cmTC_609f5.xcent
+
+CodeSign Debug/cmTC_609f5
+    cd /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp
+    
+Signing Identity:     "-"
+
+    /usr/bin/codesign --force --sign - --entitlements /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_609f5.build/cmTC_609f5.xcent --timestamp=none /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/CMakeTmp/Debug/cmTC_609f5
+
+** BUILD SUCCEEDED **
+
+
+
+Source file was:
+int main() { return 0; }

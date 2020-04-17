@@ -1,0 +1,1083 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		B90EC6C11B4E4F3FA4756CBE /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = EE0D6E0859B748FA8F8882C1 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				ECE3EE98C25D4BF88A5AEA8E /* CMake Rules */,
+			);
+			dependencies = (
+				89EF4F4E3D054FB0A1492A6E /* PBXTargetDependency */,
+				97F2E1DE2E654EACBFCAF41C /* PBXTargetDependency */,
+				2C85498CB7B24AE483923CAD /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		D755916CB9C44C52A0C1ADCE /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 47774BB2235945DEBEB21031 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				A1227205C8114421B74B7841 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		063491DC8F054CAEA7FA5D0E /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/progressbar.cpp */ = {isa = PBXBuildFile; fileRef = 6CE81F92555449EA9A7F1562 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/progressbar.cpp */; };
+		0A599E9E9ED94888AE875B5C /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/label.h */ = {isa = PBXBuildFile; fileRef = FA2F1940B6AE4954A1444629 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/label.h */; };
+		0D2F854D3555471886CF0E52 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/resources/bin2c.c */ = {isa = PBXBuildFile; fileRef = F928033ADC8B458BAB11F109 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/resources/bin2c.c */; };
+		10F632A18C2C4212B27119D4 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/messagedialog.h */ = {isa = PBXBuildFile; fileRef = 9E68E1D384AC41E4B1710286 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/messagedialog.h */; };
+		110A20CEBE4C4995A0317432 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/popup.cpp */ = {isa = PBXBuildFile; fileRef = 26B7211764D44200874540F0 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/popup.cpp */; };
+		11177D74E45F45658731F59C /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/vscrollpanel.cpp */ = {isa = PBXBuildFile; fileRef = 0FA5167548A94BCBBD47A2CE /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/vscrollpanel.cpp */; };
+		12A5B41EFA1A4E4982493712 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/popupbutton.h */ = {isa = PBXBuildFile; fileRef = 198650BCF5404A879463EBD6 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/popupbutton.h */; };
+		1420C3E523FF472880160052 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/button.cpp */ = {isa = PBXBuildFile; fileRef = 2305BAA265DF446CBF288B08 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/button.cpp */; };
+		14F97921667F473D9FE2DBAC /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/screen.cpp */ = {isa = PBXBuildFile; fileRef = AA0EA3F71B62430B884568F3 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/screen.cpp */; };
+		16680AA8AF7C4DA2BE566B2C /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/colorwheel.cpp */ = {isa = PBXBuildFile; fileRef = CE4CB47C45564AA48FD26541 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/colorwheel.cpp */; };
+		1FBFD0123B1E4B3D89FE3469 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/common.cpp */ = {isa = PBXBuildFile; fileRef = 1B36B0F230EB4BC78A80F046 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/common.cpp */; };
+		205C1734F210437EBE947D32 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = A0C13BFE4ABB4D5CAB55ED17 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/CMakeLists.txt */; };
+		21CD29A7258D418E913C81C0 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/serializer/core.h */ = {isa = PBXBuildFile; fileRef = C894798EC774495BAAA06B5F /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/serializer/core.h */; };
+		2AA4CFB3B987461BADA79B92 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/nanogui_resources.cpp.rule */ = {isa = PBXBuildFile; fileRef = 987BE295A9824B268C2DC635 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/nanogui_resources.cpp.rule */; };
+		2D34CC9590FC4B058E209348 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/slider.h */ = {isa = PBXBuildFile; fileRef = 7AA5D59FA9FF4770A3E49051 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/slider.h */; };
+		37AC4BBE3810438CBDE9ABBF /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/formhelper.h */ = {isa = PBXBuildFile; fileRef = C7D980CDA1DF41A3ADDBD907 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/formhelper.h */; };
+		3B0E147424594ABBB1C14877 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/theme.cpp */ = {isa = PBXBuildFile; fileRef = 25B32C492339434299A0ADEB /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/theme.cpp */; };
+		3EFC3C5AD42048DFB3DD718A /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/vscrollpanel.h */ = {isa = PBXBuildFile; fileRef = 70447BA919DF468AAD0FC640 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/vscrollpanel.h */; };
+		3F3253BB6F1B43F1AB00431B /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/tabheader.cpp */ = {isa = PBXBuildFile; fileRef = F25228A12F934A0EA221CE5D /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/tabheader.cpp */; };
+		3FCB2B71B28E4041A65E075A /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/layout.h */ = {isa = PBXBuildFile; fileRef = ABE43C3DFC2445D3B95A93E3 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/layout.h */; };
+		4C10A7BD61674409B76E060C /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/textbox.cpp */ = {isa = PBXBuildFile; fileRef = 5193B11CBCDD447FADF02342 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/textbox.cpp */; };
+		5492C8EC597D4DE290987EE4 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/stackedwidget.h */ = {isa = PBXBuildFile; fileRef = 83D20A6B78BC480297731EE8 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/stackedwidget.h */; };
+		54AB612ED5354E4382F5DEF7 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/imageview.h */ = {isa = PBXBuildFile; fileRef = 89747C1959194F6DA750889F /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/imageview.h */; };
+		55E50B8FEFD14F48AE7C8E92 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/button.h */ = {isa = PBXBuildFile; fileRef = 2F4AE8270B69453D8214D16E /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/button.h */; };
+		5954988A1DD844649C748C9D /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = B16EC44BE89A443ABCB9EFA4 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/CMakeLists.txt */; };
+		60FE3D6F7EE74DDD88289356 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/glutil.h */ = {isa = PBXBuildFile; fileRef = 5CB8B00A687448F88935D4BC /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/glutil.h */; };
+		6595319C533444099E08385D /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/widget.cpp */ = {isa = PBXBuildFile; fileRef = 3D6B2C16E5D644A4BA334F2F /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/widget.cpp */; };
+		672367FE9770422DBE08F9AA /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/tabwidget.cpp */ = {isa = PBXBuildFile; fileRef = 49BA7B73516A4D8CAFDA725C /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/tabwidget.cpp */; };
+		72EBA1BBD728434D9541FB6D /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/glutil.cpp */ = {isa = PBXBuildFile; fileRef = 4011E64212DD4010ACDBC2D7 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/glutil.cpp */; };
+		815259C8B15D4632BDBD4E54 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/graph.cpp */ = {isa = PBXBuildFile; fileRef = 3508DB3F53A3499AA1965526 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/graph.cpp */; };
+		83C12D7D1BF84303AB6C9DFB /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/widget.h */ = {isa = PBXBuildFile; fileRef = B80E636C3CE14394A828BC57 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/widget.h */; };
+		83F447D00F9A4345B5225CC0 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/ext/nanovg/src/nanovg.c */ = {isa = PBXBuildFile; fileRef = 3708B0338B4349479651C36D /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/ext/nanovg/src/nanovg.c */; settings = {COMPILER_FLAGS = "-DNVG_BUILD "; }; };
+		850E584727674401BCB2430A /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/window.h */ = {isa = PBXBuildFile; fileRef = FB04EF99F46941B989FBB9F4 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/window.h */; };
+		881EDA8179E74CE0B21379D9 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/stackedwidget.cpp */ = {isa = PBXBuildFile; fileRef = 65D737DFED0346768E179FF3 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/stackedwidget.cpp */; };
+		89C8C472DA794981B144AD81 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/nanogui_resources.cpp */ = {isa = PBXBuildFile; fileRef = C798930228E8477286DA1975 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/nanogui_resources.cpp */; };
+		8B41184F44424C58943E2BF2 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/slider.cpp */ = {isa = PBXBuildFile; fileRef = 434C6F271EF24580888FB1A9 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/slider.cpp */; };
+		8B8844C5A0BE43D1AC9F1A39 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/imagepanel.cpp */ = {isa = PBXBuildFile; fileRef = 578EDB9494974A598222C6ED /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/imagepanel.cpp */; };
+		8BA412FE35984F168B847CEF /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/colorwheel.h */ = {isa = PBXBuildFile; fileRef = BB8E74A2A86E4E8FBB0844A3 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/colorwheel.h */; };
+		8DCF0827C67A4E3CA1817F6E /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/window.cpp */ = {isa = PBXBuildFile; fileRef = D942B73382204BDEB72CFB51 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/window.cpp */; };
+		916C298A367543BA9B94EAC2 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/screen.h */ = {isa = PBXBuildFile; fileRef = A660C25C80A94AE182B4217E /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/screen.h */; };
+		940E7247697744AFAEAE998F /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/combobox.h */ = {isa = PBXBuildFile; fileRef = EFBC3B3685AE48BA98038413 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/combobox.h */; };
+		960A4C5B2ED64277BB1FB45B /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/tabheader.h */ = {isa = PBXBuildFile; fileRef = C2BFFEEF9E1B4163B3E46A37 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/tabheader.h */; };
+		98CD828DA5424188B6BAEAEF /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/toolbutton.h */ = {isa = PBXBuildFile; fileRef = E19DBFE6AD094FD48581D8E1 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/toolbutton.h */; };
+		9E99E452BD7C41D8A08A4B51 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/graph.h */ = {isa = PBXBuildFile; fileRef = 97BCAF35E6DF4C01B72672BC /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/graph.h */; };
+		A01866884FAD482FAA1CAF7D /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/progressbar.h */ = {isa = PBXBuildFile; fileRef = 043876E7F4CC4EFEB9CA1A62 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/progressbar.h */; };
+		A13038B7E30E45979C8E3F29 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/darwin.mm */ = {isa = PBXBuildFile; fileRef = D379050F996541F8BCFC5665 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/darwin.mm */; };
+		A541411F20F04885A8308AE3 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/serializer.cpp */ = {isa = PBXBuildFile; fileRef = 8AD8A90A063C48F9B94900A0 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/serializer.cpp */; };
+		AC9D7E5BC4994ED9857A2E1A /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/serializer/opengl.h */ = {isa = PBXBuildFile; fileRef = 965ED44DC9EA4AE58B637E3D /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/serializer/opengl.h */; };
+		AD08A20B06894005AE3AE034 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/colorpicker.cpp */ = {isa = PBXBuildFile; fileRef = CDA9298359954B93AA63B819 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/colorpicker.cpp */; };
+		B8BDB71FC74A49C0A42EE37E /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/layout.cpp */ = {isa = PBXBuildFile; fileRef = 1851F43D875F49CDBEE3EFA9 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/layout.cpp */; };
+		BA961AC3E42D4A7B853780F7 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/colorpicker.h */ = {isa = PBXBuildFile; fileRef = BFCCF43664BA4CFBBD0A86AB /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/colorpicker.h */; };
+		BC8F51D32DED47DF85193A32 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/opengl.h */ = {isa = PBXBuildFile; fileRef = 3F7F77663865499A9D2DFF35 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/opengl.h */; };
+		BEE2270B861B49E9AF214AA9 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/imagepanel.h */ = {isa = PBXBuildFile; fileRef = 4289350F75FE477A82E54684 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/imagepanel.h */; };
+		CA366492F73047EEA3F0B4FF /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/popup.h */ = {isa = PBXBuildFile; fileRef = 08E9FC3B38A2411FABAD5AE9 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/popup.h */; };
+		CCE4463892FA4DD8A026DBAA /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/serializer/sparse.h */ = {isa = PBXBuildFile; fileRef = 78AA93CA9DF74B4191CC28FC /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/serializer/sparse.h */; };
+		D274559777214E6895F949AD /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/popupbutton.cpp */ = {isa = PBXBuildFile; fileRef = 875F99DB3667460C9B5D0FC6 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/popupbutton.cpp */; };
+		D2E92F9B0CC143D59AEFA615 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/messagedialog.cpp */ = {isa = PBXBuildFile; fileRef = 3082FE5289B04570915C419E /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/messagedialog.cpp */; };
+		D717450AE116420F955B9BA4 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/checkbox.h */ = {isa = PBXBuildFile; fileRef = A65AE380EA9D4861BCCE5552 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/checkbox.h */; };
+		DCE7D830CF49455E967AF41D /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/combobox.cpp */ = {isa = PBXBuildFile; fileRef = 2EFF6420C5AE457A831CE5FC /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/combobox.cpp */; };
+		E276DF6DEDFA48AAB3E6E25E /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/label.cpp */ = {isa = PBXBuildFile; fileRef = E166F760790F48B5B4EBB8B4 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/label.cpp */; };
+		E4177256C3CD44D9B9566148 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/tabwidget.h */ = {isa = PBXBuildFile; fileRef = 3FD79A84A28A4B9F86A412E6 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/tabwidget.h */; };
+		E840E88D3FE946F5BBCA36FF /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/textbox.h */ = {isa = PBXBuildFile; fileRef = 43E086A299E54EE7AC43C9D0 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/textbox.h */; };
+		EAEC78E90DC64231A66ECD6D /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/nanogui.h */ = {isa = PBXBuildFile; fileRef = C8148896ADB34B26AEF642C0 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/nanogui.h */; };
+		EDA64264AAAF4E0F904531D1 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/theme.h */ = {isa = PBXBuildFile; fileRef = 8CECC0DB80AA4E328E488204 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/theme.h */; };
+		EDD0CF51D5964E01987FA348 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/imageview.cpp */ = {isa = PBXBuildFile; fileRef = 16CBF5418606403DA6788FD7 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/imageview.cpp */; };
+		F03A0E86CAF94C50917B60DC /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/checkbox.cpp */ = {isa = PBXBuildFile; fileRef = 2877B41807494F41A64030D7 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/checkbox.cpp */; };
+		F37C993F5DB64D2D88990590 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/common.h */ = {isa = PBXBuildFile; fileRef = 1C6DE07FFF40447384C94EDC /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/common.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		253037E3F1AC483D81DC629D /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		51835A7A68AD4456B3B4BC14 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		53F91E8BE2B24ABF9FAFAF24 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		555C17709EE74E32BD1CACD4 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		322718EC27A2448D9704259A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 025A6B269C984E8BB18D40C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F997D29D30F445BAC94D55F;
+			remoteInfo = nanogui;
+		};
+		376E47CD51A74580ABC444B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 025A6B269C984E8BB18D40C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD11AD50A2784C6086690192;
+			remoteInfo = bin2c;
+		};
+		606FE18537F0437D873E961F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 025A6B269C984E8BB18D40C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D755916CB9C44C52A0C1ADCE;
+			remoteInfo = ZERO_CHECK;
+		};
+		A9A6797D4A9A4F0BAFC375FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 025A6B269C984E8BB18D40C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D755916CB9C44C52A0C1ADCE;
+			remoteInfo = ZERO_CHECK;
+		};
+		BC4A730DB8B445E4A648E011 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 025A6B269C984E8BB18D40C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D755916CB9C44C52A0C1ADCE;
+			remoteInfo = ZERO_CHECK;
+		};
+		F3106E9BA5534DAB9C757A5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 025A6B269C984E8BB18D40C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD11AD50A2784C6086690192;
+			remoteInfo = bin2c;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		043876E7F4CC4EFEB9CA1A62 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/progressbar.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = progressbar.h; path = include/nanogui/progressbar.h; sourceTree = SOURCE_ROOT; };
+		08E9FC3B38A2411FABAD5AE9 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/popup.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = popup.h; path = include/nanogui/popup.h; sourceTree = SOURCE_ROOT; };
+		0FA5167548A94BCBBD47A2CE /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/vscrollpanel.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vscrollpanel.cpp; path = src/vscrollpanel.cpp; sourceTree = SOURCE_ROOT; };
+		16CBF5418606403DA6788FD7 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/imageview.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imageview.cpp; path = src/imageview.cpp; sourceTree = SOURCE_ROOT; };
+		1851F43D875F49CDBEE3EFA9 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/layout.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = layout.cpp; path = src/layout.cpp; sourceTree = SOURCE_ROOT; };
+		198650BCF5404A879463EBD6 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/popupbutton.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = popupbutton.h; path = include/nanogui/popupbutton.h; sourceTree = SOURCE_ROOT; };
+		1B36B0F230EB4BC78A80F046 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/common.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = common.cpp; path = src/common.cpp; sourceTree = SOURCE_ROOT; };
+		1C6DE07FFF40447384C94EDC /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/common.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = common.h; path = include/nanogui/common.h; sourceTree = SOURCE_ROOT; };
+		2305BAA265DF446CBF288B08 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/button.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = button.cpp; path = src/button.cpp; sourceTree = SOURCE_ROOT; };
+		25B32C492339434299A0ADEB /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/theme.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = theme.cpp; path = src/theme.cpp; sourceTree = SOURCE_ROOT; };
+		26B7211764D44200874540F0 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/popup.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = popup.cpp; path = src/popup.cpp; sourceTree = SOURCE_ROOT; };
+		2877B41807494F41A64030D7 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/checkbox.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = checkbox.cpp; path = src/checkbox.cpp; sourceTree = SOURCE_ROOT; };
+		2EFF6420C5AE457A831CE5FC /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/combobox.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = combobox.cpp; path = src/combobox.cpp; sourceTree = SOURCE_ROOT; };
+		2F4AE8270B69453D8214D16E /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/button.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = button.h; path = include/nanogui/button.h; sourceTree = SOURCE_ROOT; };
+		3082FE5289B04570915C419E /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/messagedialog.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = messagedialog.cpp; path = src/messagedialog.cpp; sourceTree = SOURCE_ROOT; };
+		3508DB3F53A3499AA1965526 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/graph.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = graph.cpp; path = src/graph.cpp; sourceTree = SOURCE_ROOT; };
+		3708B0338B4349479651C36D /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/ext/nanovg/src/nanovg.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = nanovg.c; path = ext/nanovg/src/nanovg.c; sourceTree = SOURCE_ROOT; };
+		3D6B2C16E5D644A4BA334F2F /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/widget.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = widget.cpp; path = src/widget.cpp; sourceTree = SOURCE_ROOT; };
+		3F7F77663865499A9D2DFF35 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/opengl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = opengl.h; path = include/nanogui/opengl.h; sourceTree = SOURCE_ROOT; };
+		3FD79A84A28A4B9F86A412E6 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/tabwidget.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tabwidget.h; path = include/nanogui/tabwidget.h; sourceTree = SOURCE_ROOT; };
+		4011E64212DD4010ACDBC2D7 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/glutil.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = glutil.cpp; path = src/glutil.cpp; sourceTree = SOURCE_ROOT; };
+		4289350F75FE477A82E54684 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/imagepanel.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = imagepanel.h; path = include/nanogui/imagepanel.h; sourceTree = SOURCE_ROOT; };
+		434C6F271EF24580888FB1A9 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/slider.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = slider.cpp; path = src/slider.cpp; sourceTree = SOURCE_ROOT; };
+		43E086A299E54EE7AC43C9D0 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/textbox.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = textbox.h; path = include/nanogui/textbox.h; sourceTree = SOURCE_ROOT; };
+		49BA7B73516A4D8CAFDA725C /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/tabwidget.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tabwidget.cpp; path = src/tabwidget.cpp; sourceTree = SOURCE_ROOT; };
+		5193B11CBCDD447FADF02342 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/textbox.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = textbox.cpp; path = src/textbox.cpp; sourceTree = SOURCE_ROOT; };
+		578EDB9494974A598222C6ED /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/imagepanel.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imagepanel.cpp; path = src/imagepanel.cpp; sourceTree = SOURCE_ROOT; };
+		5CB8B00A687448F88935D4BC /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/glutil.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glutil.h; path = include/nanogui/glutil.h; sourceTree = SOURCE_ROOT; };
+		639570F12B6242F2AB3D3A05 /* nanogui */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libnanogui.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D737DFED0346768E179FF3 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/stackedwidget.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stackedwidget.cpp; path = src/stackedwidget.cpp; sourceTree = SOURCE_ROOT; };
+		6CE81F92555449EA9A7F1562 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/progressbar.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = progressbar.cpp; path = src/progressbar.cpp; sourceTree = SOURCE_ROOT; };
+		70447BA919DF468AAD0FC640 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/vscrollpanel.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vscrollpanel.h; path = include/nanogui/vscrollpanel.h; sourceTree = SOURCE_ROOT; };
+		78AA93CA9DF74B4191CC28FC /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/serializer/sparse.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = sparse.h; path = include/nanogui/serializer/sparse.h; sourceTree = SOURCE_ROOT; };
+		7AA5D59FA9FF4770A3E49051 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/slider.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = slider.h; path = include/nanogui/slider.h; sourceTree = SOURCE_ROOT; };
+		83D20A6B78BC480297731EE8 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/stackedwidget.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = stackedwidget.h; path = include/nanogui/stackedwidget.h; sourceTree = SOURCE_ROOT; };
+		875F99DB3667460C9B5D0FC6 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/popupbutton.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = popupbutton.cpp; path = src/popupbutton.cpp; sourceTree = SOURCE_ROOT; };
+		89747C1959194F6DA750889F /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/imageview.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = imageview.h; path = include/nanogui/imageview.h; sourceTree = SOURCE_ROOT; };
+		8AD8A90A063C48F9B94900A0 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/serializer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = serializer.cpp; path = src/serializer.cpp; sourceTree = SOURCE_ROOT; };
+		8CECC0DB80AA4E328E488204 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/theme.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = theme.h; path = include/nanogui/theme.h; sourceTree = SOURCE_ROOT; };
+		965ED44DC9EA4AE58B637E3D /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/serializer/opengl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = opengl.h; path = include/nanogui/serializer/opengl.h; sourceTree = SOURCE_ROOT; };
+		97BCAF35E6DF4C01B72672BC /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/graph.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = graph.h; path = include/nanogui/graph.h; sourceTree = SOURCE_ROOT; };
+		987BE295A9824B268C2DC635 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/nanogui_resources.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = nanogui_resources.cpp.rule; path = nanogui_resources.cpp.rule; sourceTree = SOURCE_ROOT; };
+		9E68E1D384AC41E4B1710286 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/messagedialog.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = messagedialog.h; path = include/nanogui/messagedialog.h; sourceTree = SOURCE_ROOT; };
+		A0C13BFE4ABB4D5CAB55ED17 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A65AE380EA9D4861BCCE5552 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/checkbox.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = checkbox.h; path = include/nanogui/checkbox.h; sourceTree = SOURCE_ROOT; };
+		A660C25C80A94AE182B4217E /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/screen.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = screen.h; path = include/nanogui/screen.h; sourceTree = SOURCE_ROOT; };
+		AA0EA3F71B62430B884568F3 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/screen.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = screen.cpp; path = src/screen.cpp; sourceTree = SOURCE_ROOT; };
+		ABE43C3DFC2445D3B95A93E3 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/layout.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = layout.h; path = include/nanogui/layout.h; sourceTree = SOURCE_ROOT; };
+		B16EC44BE89A443ABCB9EFA4 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B80E636C3CE14394A828BC57 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/widget.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = widget.h; path = include/nanogui/widget.h; sourceTree = SOURCE_ROOT; };
+		BB8E74A2A86E4E8FBB0844A3 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/colorwheel.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = colorwheel.h; path = include/nanogui/colorwheel.h; sourceTree = SOURCE_ROOT; };
+		BFCCF43664BA4CFBBD0A86AB /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/colorpicker.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = colorpicker.h; path = include/nanogui/colorpicker.h; sourceTree = SOURCE_ROOT; };
+		C284566DB8714867ABCD992B /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C2BFFEEF9E1B4163B3E46A37 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/tabheader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tabheader.h; path = include/nanogui/tabheader.h; sourceTree = SOURCE_ROOT; };
+		C798930228E8477286DA1975 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/nanogui_resources.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = nanogui_resources.cpp; path = nanogui_resources.cpp; sourceTree = SOURCE_ROOT; };
+		C7D980CDA1DF41A3ADDBD907 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/formhelper.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = formhelper.h; path = include/nanogui/formhelper.h; sourceTree = SOURCE_ROOT; };
+		C8148896ADB34B26AEF642C0 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/nanogui.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nanogui.h; path = include/nanogui/nanogui.h; sourceTree = SOURCE_ROOT; };
+		C894798EC774495BAAA06B5F /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/serializer/core.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = core.h; path = include/nanogui/serializer/core.h; sourceTree = SOURCE_ROOT; };
+		CDA9298359954B93AA63B819 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/colorpicker.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = colorpicker.cpp; path = src/colorpicker.cpp; sourceTree = SOURCE_ROOT; };
+		CE4CB47C45564AA48FD26541 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/colorwheel.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = colorwheel.cpp; path = src/colorwheel.cpp; sourceTree = SOURCE_ROOT; };
+		D379050F996541F8BCFC5665 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/darwin.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = darwin.mm; path = src/darwin.mm; sourceTree = SOURCE_ROOT; };
+		D942B73382204BDEB72CFB51 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/window.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = window.cpp; path = src/window.cpp; sourceTree = SOURCE_ROOT; };
+		E166F760790F48B5B4EBB8B4 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/label.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = label.cpp; path = src/label.cpp; sourceTree = SOURCE_ROOT; };
+		E19DBFE6AD094FD48581D8E1 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/toolbutton.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = toolbutton.h; path = include/nanogui/toolbutton.h; sourceTree = SOURCE_ROOT; };
+		EFBC3B3685AE48BA98038413 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/combobox.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = combobox.h; path = include/nanogui/combobox.h; sourceTree = SOURCE_ROOT; };
+		F25228A12F934A0EA221CE5D /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/tabheader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tabheader.cpp; path = src/tabheader.cpp; sourceTree = SOURCE_ROOT; };
+		F928033ADC8B458BAB11F109 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/resources/bin2c.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = bin2c.c; path = resources/bin2c.c; sourceTree = SOURCE_ROOT; };
+		FA2F1940B6AE4954A1444629 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/label.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = label.h; path = include/nanogui/label.h; sourceTree = SOURCE_ROOT; };
+		FAC4C574886D41FCB5366E93 /* bin2c */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = bin2c; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB04EF99F46941B989FBB9F4 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/window.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = window.h; path = include/nanogui/window.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		59EB4D2CE0FE41A0BB9C585B /* bin2c */ = {
+			isa = PBXGroup;
+			children = (
+				DF7EBE8825664721990E3C78 /* Source Files */,
+				A0C13BFE4ABB4D5CAB55ED17 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/CMakeLists.txt */,
+			);
+			name = bin2c;
+			sourceTree = "<group>";
+		};
+		5E75D30E09AC49D4A773E3EC = {
+			isa = PBXGroup;
+			children = (
+				881F42E22F7A47878D4B9E85 /* nanogui */,
+				59EB4D2CE0FE41A0BB9C585B /* bin2c */,
+				69A6273987A44F4C808849CA /* ALL_BUILD */,
+				A19A9E08409042A6AB9133F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		69A6273987A44F4C808849CA /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				A0AF3BEDAB034C0A949A0E9A /* CMake Rules */,
+				C284566DB8714867ABCD992B /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		74D9BF5A662A4CE1BCF12424 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+				987BE295A9824B268C2DC635 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/nanogui_resources.cpp.rule */,
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		881F42E22F7A47878D4B9E85 /* nanogui */ = {
+			isa = PBXGroup;
+			children = (
+				C3A29C8610AE40DC8D8D8740 /* Source Files */,
+				E5ABBF73345B4DCDA0815038 /* Header Files */,
+				74D9BF5A662A4CE1BCF12424 /* CMake Rules */,
+				B16EC44BE89A443ABCB9EFA4 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/CMakeLists.txt */,
+			);
+			name = nanogui;
+			sourceTree = "<group>";
+		};
+		A0AF3BEDAB034C0A949A0E9A /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		A19A9E08409042A6AB9133F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAC4C574886D41FCB5366E93 /* bin2c */,
+				639570F12B6242F2AB3D3A05 /* nanogui */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3A29C8610AE40DC8D8D8740 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				3708B0338B4349479651C36D /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/ext/nanovg/src/nanovg.c */,
+				C798930228E8477286DA1975 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/nanogui_resources.cpp */,
+				2305BAA265DF446CBF288B08 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/button.cpp */,
+				2877B41807494F41A64030D7 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/checkbox.cpp */,
+				CDA9298359954B93AA63B819 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/colorpicker.cpp */,
+				CE4CB47C45564AA48FD26541 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/colorwheel.cpp */,
+				2EFF6420C5AE457A831CE5FC /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/combobox.cpp */,
+				1B36B0F230EB4BC78A80F046 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/common.cpp */,
+				D379050F996541F8BCFC5665 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/darwin.mm */,
+				4011E64212DD4010ACDBC2D7 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/glutil.cpp */,
+				3508DB3F53A3499AA1965526 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/graph.cpp */,
+				578EDB9494974A598222C6ED /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/imagepanel.cpp */,
+				16CBF5418606403DA6788FD7 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/imageview.cpp */,
+				E166F760790F48B5B4EBB8B4 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/label.cpp */,
+				1851F43D875F49CDBEE3EFA9 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/layout.cpp */,
+				3082FE5289B04570915C419E /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/messagedialog.cpp */,
+				26B7211764D44200874540F0 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/popup.cpp */,
+				875F99DB3667460C9B5D0FC6 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/popupbutton.cpp */,
+				6CE81F92555449EA9A7F1562 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/progressbar.cpp */,
+				AA0EA3F71B62430B884568F3 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/screen.cpp */,
+				8AD8A90A063C48F9B94900A0 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/serializer.cpp */,
+				434C6F271EF24580888FB1A9 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/slider.cpp */,
+				65D737DFED0346768E179FF3 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/stackedwidget.cpp */,
+				F25228A12F934A0EA221CE5D /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/tabheader.cpp */,
+				49BA7B73516A4D8CAFDA725C /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/tabwidget.cpp */,
+				5193B11CBCDD447FADF02342 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/textbox.cpp */,
+				25B32C492339434299A0ADEB /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/theme.cpp */,
+				0FA5167548A94BCBBD47A2CE /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/vscrollpanel.cpp */,
+				3D6B2C16E5D644A4BA334F2F /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/widget.cpp */,
+				D942B73382204BDEB72CFB51 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/window.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		DF7EBE8825664721990E3C78 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				F928033ADC8B458BAB11F109 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/resources/bin2c.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		E5ABBF73345B4DCDA0815038 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F4AE8270B69453D8214D16E /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/button.h */,
+				A65AE380EA9D4861BCCE5552 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/checkbox.h */,
+				BFCCF43664BA4CFBBD0A86AB /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/colorpicker.h */,
+				BB8E74A2A86E4E8FBB0844A3 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/colorwheel.h */,
+				EFBC3B3685AE48BA98038413 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/combobox.h */,
+				1C6DE07FFF40447384C94EDC /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/common.h */,
+				C7D980CDA1DF41A3ADDBD907 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/formhelper.h */,
+				5CB8B00A687448F88935D4BC /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/glutil.h */,
+				97BCAF35E6DF4C01B72672BC /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/graph.h */,
+				4289350F75FE477A82E54684 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/imagepanel.h */,
+				89747C1959194F6DA750889F /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/imageview.h */,
+				FA2F1940B6AE4954A1444629 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/label.h */,
+				ABE43C3DFC2445D3B95A93E3 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/layout.h */,
+				9E68E1D384AC41E4B1710286 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/messagedialog.h */,
+				C8148896ADB34B26AEF642C0 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/nanogui.h */,
+				3F7F77663865499A9D2DFF35 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/opengl.h */,
+				08E9FC3B38A2411FABAD5AE9 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/popup.h */,
+				198650BCF5404A879463EBD6 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/popupbutton.h */,
+				043876E7F4CC4EFEB9CA1A62 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/progressbar.h */,
+				A660C25C80A94AE182B4217E /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/screen.h */,
+				C894798EC774495BAAA06B5F /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/serializer/core.h */,
+				965ED44DC9EA4AE58B637E3D /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/serializer/opengl.h */,
+				78AA93CA9DF74B4191CC28FC /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/serializer/sparse.h */,
+				7AA5D59FA9FF4770A3E49051 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/slider.h */,
+				83D20A6B78BC480297731EE8 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/stackedwidget.h */,
+				C2BFFEEF9E1B4163B3E46A37 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/tabheader.h */,
+				3FD79A84A28A4B9F86A412E6 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/tabwidget.h */,
+				43E086A299E54EE7AC43C9D0 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/textbox.h */,
+				8CECC0DB80AA4E328E488204 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/theme.h */,
+				E19DBFE6AD094FD48581D8E1 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/toolbutton.h */,
+				70447BA919DF468AAD0FC640 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/vscrollpanel.h */,
+				B80E636C3CE14394A828BC57 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/widget.h */,
+				FB04EF99F46941B989FBB9F4 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include/nanogui/window.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F997D29D30F445BAC94D55F /* nanogui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74F35FF903774C6981C9AD13 /* Build configuration list for PBXNativeTarget "nanogui" */;
+			buildPhases = (
+				6010FE6D588E410E826DCA36 /* CMake Rules */,
+				0B2AC4CD2E4244EE88B29101 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC724CBB983344CDAC4A9462 /* PBXTargetDependency */,
+				1982509CB0D7473CA892EC78 /* PBXTargetDependency */,
+			);
+			name = nanogui;
+			productName = nanogui;
+			productReference = 639570F12B6242F2AB3D3A05 /* nanogui */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FD11AD50A2784C6086690192 /* bin2c */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AD7234053BB4F77A83FCE34 /* Build configuration list for PBXNativeTarget "bin2c" */;
+			buildPhases = (
+				4C387E32F21647BB84295A5E /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD2928FAE82545AA9209EC9A /* PBXTargetDependency */,
+			);
+			name = bin2c;
+			productName = bin2c;
+			productReference = FAC4C574886D41FCB5366E93 /* bin2c */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		025A6B269C984E8BB18D40C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1130;
+			};
+			buildConfigurationList = 4A1EB749B25B419C92C0F359 /* Build configuration list for PBXProject "NanoGUI" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				53F91E8BE2B24ABF9FAFAF24 /* Debug */,
+				253037E3F1AC483D81DC629D /* Release */,
+				51835A7A68AD4456B3B4BC14 /* MinSizeRel */,
+				555C17709EE74E32BD1CACD4 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 5E75D30E09AC49D4A773E3EC;
+			projectDirPath = .;
+			projectRoot = "";
+			targets = (
+				B90EC6C11B4E4F3FA4756CBE /* ALL_BUILD */,
+				D755916CB9C44C52A0C1ADCE /* ZERO_CHECK */,
+				FD11AD50A2784C6086690192 /* bin2c */,
+				0F997D29D30F445BAC94D55F /* nanogui */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		143D82B4251C4279AD0C0CBB = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		6010FE6D588E410E826DCA36 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui -f /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/CMakeScripts/nanogui_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		A0FB313E47B2470BBCA5390A = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A1227205C8114421B74B7841 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui -f /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		ECE3EE98C25D4BF88A5AEA8E /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui -f /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B2AC4CD2E4244EE88B29101 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83F447D00F9A4345B5225CC0 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/ext/nanovg/src/nanovg.c */,
+				89C8C472DA794981B144AD81 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/nanogui_resources.cpp */,
+				1420C3E523FF472880160052 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/button.cpp */,
+				F03A0E86CAF94C50917B60DC /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/checkbox.cpp */,
+				AD08A20B06894005AE3AE034 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/colorpicker.cpp */,
+				16680AA8AF7C4DA2BE566B2C /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/colorwheel.cpp */,
+				DCE7D830CF49455E967AF41D /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/combobox.cpp */,
+				1FBFD0123B1E4B3D89FE3469 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/common.cpp */,
+				A13038B7E30E45979C8E3F29 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/darwin.mm */,
+				72EBA1BBD728434D9541FB6D /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/glutil.cpp */,
+				815259C8B15D4632BDBD4E54 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/graph.cpp */,
+				8B8844C5A0BE43D1AC9F1A39 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/imagepanel.cpp */,
+				EDD0CF51D5964E01987FA348 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/imageview.cpp */,
+				E276DF6DEDFA48AAB3E6E25E /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/label.cpp */,
+				B8BDB71FC74A49C0A42EE37E /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/layout.cpp */,
+				D2E92F9B0CC143D59AEFA615 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/messagedialog.cpp */,
+				110A20CEBE4C4995A0317432 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/popup.cpp */,
+				D274559777214E6895F949AD /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/popupbutton.cpp */,
+				063491DC8F054CAEA7FA5D0E /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/progressbar.cpp */,
+				14F97921667F473D9FE2DBAC /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/screen.cpp */,
+				A541411F20F04885A8308AE3 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/serializer.cpp */,
+				8B41184F44424C58943E2BF2 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/slider.cpp */,
+				881EDA8179E74CE0B21379D9 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/stackedwidget.cpp */,
+				3F3253BB6F1B43F1AB00431B /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/tabheader.cpp */,
+				672367FE9770422DBE08F9AA /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/tabwidget.cpp */,
+				4C10A7BD61674409B76E060C /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/textbox.cpp */,
+				3B0E147424594ABBB1C14877 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/theme.cpp */,
+				11177D74E45F45658731F59C /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/vscrollpanel.cpp */,
+				6595319C533444099E08385D /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/widget.cpp */,
+				8DCF0827C67A4E3CA1817F6E /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/src/window.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C387E32F21647BB84295A5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D2F854D3555471886CF0E52 /* /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/resources/bin2c.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1982509CB0D7473CA892EC78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD11AD50A2784C6086690192 /* bin2c */;
+			targetProxy = F3106E9BA5534DAB9C757A5D /* PBXContainerItemProxy */;
+		};
+		2C85498CB7B24AE483923CAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD11AD50A2784C6086690192 /* bin2c */;
+			targetProxy = 376E47CD51A74580ABC444B1 /* PBXContainerItemProxy */;
+		};
+		89EF4F4E3D054FB0A1492A6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D755916CB9C44C52A0C1ADCE /* ZERO_CHECK */;
+			targetProxy = A9A6797D4A9A4F0BAFC375FF /* PBXContainerItemProxy */;
+		};
+		97F2E1DE2E654EACBFCAF41C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F997D29D30F445BAC94D55F /* nanogui */;
+			targetProxy = 322718EC27A2448D9704259A /* PBXContainerItemProxy */;
+		};
+		AC724CBB983344CDAC4A9462 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D755916CB9C44C52A0C1ADCE /* ZERO_CHECK */;
+			targetProxy = BC4A730DB8B445E4A648E011 /* PBXContainerItemProxy */;
+		};
+		CD2928FAE82545AA9209EC9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D755916CB9C44C52A0C1ADCE /* ZERO_CHECK */;
+			targetProxy = 606FE18537F0437D873E961F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		010C0693806747D791986287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		0DFD7461E4A34C9398EEF33A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",NANOGUI_BUILD,CORO_SJLJ);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/ext/eigen","/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/../glfw/include","/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/ext/nanovg/src","/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include","/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui","/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/ext/coro","/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/glfw/include");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -Wno-deprecated-declarations    -g  ";
+				OTHER_CPLUSPLUSFLAGS = " --std=gnu++11    -Wall -Wno-unused-variable -Wall -Wextra -std=c++14      -Wall           -ggdb  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = nanogui;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		0E650130E17D449CB86EFD71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",NANOGUI_BUILD,CORO_SJLJ);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/ext/eigen","/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/../glfw/include","/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/ext/nanovg/src","/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include","/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui","/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/ext/coro","/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/glfw/include");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -Wno-deprecated-declarations     -DNDEBUG   ";
+				OTHER_CPLUSPLUSFLAGS = " --std=gnu++11    -Wall -Wno-unused-variable -Wall -Wextra -std=c++14      -Wall -g  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = nanogui;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		212A5A57DEB943778A9FFEF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",CORO_SJLJ);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/ext/eigen","/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/../glfw/include","/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/ext/nanovg/src","/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include","/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui","/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/ext/coro");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = " -Wno-deprecated-declarations     -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = bin2c;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		26095FB343594FB189F6F818 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",NANOGUI_BUILD,CORO_SJLJ);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/ext/eigen","/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/../glfw/include","/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/ext/nanovg/src","/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include","/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui","/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/ext/coro","/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/glfw/include");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -Wno-deprecated-declarations        -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = " --std=gnu++11    -Wall -Wno-unused-variable -Wall -Wextra -std=c++14        -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = nanogui;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		287C883769964A86A4FCBB90 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		440C5BDA48D74E03AC0C6F2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/build";
+			};
+			name = Release;
+		};
+		48E50B7644014E9BBCC0CD97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		492E8693F3C548B99893E2E4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",CORO_SJLJ);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/ext/eigen","/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/../glfw/include","/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/ext/nanovg/src","/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include","/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui","/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/ext/coro");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = " -Wno-deprecated-declarations     -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = bin2c;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6EB358165BEF412CA0E43F38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",CORO_SJLJ);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/ext/eigen","/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/../glfw/include","/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/ext/nanovg/src","/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include","/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui","/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/ext/coro");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = " -Wno-deprecated-declarations     ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = bin2c;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		88AE5D2567B749FEB1E2343F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/build";
+			};
+			name = RelWithDebInfo;
+		};
+		8910461A948C47F1B9B6EFD6 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/build";
+			};
+			name = MinSizeRel;
+		};
+		A43E0FFE831A46A2B0BF440B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		AD877E793BE847C4A0A96645 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",CORO_SJLJ);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/ext/eigen","/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/../glfw/include","/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/ext/nanovg/src","/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include","/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui","/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/ext/coro");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = " -Wno-deprecated-declarations        -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = bin2c;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		CD977EF2C73443A08FCB7F9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		CE22EA94EA194C05A1563D2A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E64B1DA812B748248479AB32 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E6DDE97E557D4566A378A14D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/build";
+			};
+			name = Debug;
+		};
+		EBEF402297DC4BD9B4A641D6 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",NANOGUI_BUILD,CORO_SJLJ);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/ext/eigen","/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/../glfw/include","/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/ext/nanovg/src","/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/include","/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui","/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui/ext/coro","/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/glfw/include");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = " -Wno-deprecated-declarations     -DNDEBUG   ";
+				OTHER_CPLUSPLUSFLAGS = " --std=gnu++11    -Wall -Wno-unused-variable -Wall -Wextra -std=c++14     -DNDEBUG -g  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = nanogui;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		EE41A06DFFD04D4C85CF9340 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/3rd_party/nanogui";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47774BB2235945DEBEB21031 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48E50B7644014E9BBCC0CD97 /* Debug */,
+				CD977EF2C73443A08FCB7F9A /* Release */,
+				EE41A06DFFD04D4C85CF9340 /* MinSizeRel */,
+				CE22EA94EA194C05A1563D2A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4A1EB749B25B419C92C0F359 /* Build configuration list for PBXProject "NanoGUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6DDE97E557D4566A378A14D /* Debug */,
+				440C5BDA48D74E03AC0C6F2D /* Release */,
+				8910461A948C47F1B9B6EFD6 /* MinSizeRel */,
+				88AE5D2567B749FEB1E2343F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4AD7234053BB4F77A83FCE34 /* Build configuration list for PBXNativeTarget "bin2c" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EB358165BEF412CA0E43F38 /* Debug */,
+				212A5A57DEB943778A9FFEF0 /* Release */,
+				492E8693F3C548B99893E2E4 /* MinSizeRel */,
+				AD877E793BE847C4A0A96645 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		74F35FF903774C6981C9AD13 /* Build configuration list for PBXNativeTarget "nanogui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DFD7461E4A34C9398EEF33A /* Debug */,
+				0E650130E17D449CB86EFD71 /* Release */,
+				EBEF402297DC4BD9B4A641D6 /* MinSizeRel */,
+				26095FB343594FB189F6F818 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EE0D6E0859B748FA8F8882C1 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				010C0693806747D791986287 /* Debug */,
+				A43E0FFE831A46A2B0BF440B /* Release */,
+				287C883769964A86A4FCBB90 /* MinSizeRel */,
+				E64B1DA812B748248479AB32 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 025A6B269C984E8BB18D40C4 /* Project object */;
+}

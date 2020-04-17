@@ -65,10 +65,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2"
+CMAKE_SOURCE_DIR = /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2"
+CMAKE_BINARY_DIR = /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -97,9 +97,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/CMakeFiles" "/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/yangguang/archive/图形学/MIT-6.836-assignment/original code/assn2/starter2/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yangguang/archive/图形学/MIT-6.836-assignment/assn2/starter2/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
