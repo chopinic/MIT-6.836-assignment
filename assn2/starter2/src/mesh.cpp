@@ -55,9 +55,9 @@ void Mesh::draw()
 	for (int i = 0; i < faces.size(); i++)
 	{
 		Vector3f nor,a1,a2;
-		Vector3f v0 = bindVertices[faces[i][0]];
-		Vector3f v1 = bindVertices[faces[i][1]];
-		Vector3f v2 = bindVertices[faces[i][2]];
+		Vector3f v0 = currentVertices[faces[i][0]];
+		Vector3f v1 = currentVertices[faces[i][1]];
+		Vector3f v2 = currentVertices[faces[i][2]];
 		a1 = v1-v0;
 		a2 = v2-v1;
 		nor = Vector3f::cross(a1,a2);
@@ -82,7 +82,7 @@ void Mesh::loadAttachments(const char *filename, int numJoints)
 		vector<float> weight;
 		weight.push_back(0);
 		float t;
-		for(int i = 0 ; i < numJoints ; i++){
+		for(int i = 0 ; i < numJoints-1 ; i++){
 			ss>>t;
 			weight.push_back(t);
 		}

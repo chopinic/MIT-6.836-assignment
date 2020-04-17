@@ -54,7 +54,7 @@ public:
     // 2.3.2. Implement this method to compute a per-joint transform from
     // joint space to world space in the CURRENT POSE.
     void updateCurrentJointToWorldTransforms();
-
+    void tranverseJ2W(Joint *now);
     // 2.3.2. This is the core of SSD.
     // Implement this method to update the vertices of the mesh
     // given the current state of the skeleton.

@@ -220,19 +220,13 @@ void SkeletalModel::tranverseBones(const Camera &camera, Joint *now)
             Vector4f(N, 0),
             Vector4f(T, 0),
             Vector4f(B, 0),
-            Vector4f(0,0,0,1));
-        // Matrix3f rotat = now->children[i]->transform.getSubmatrix3x3(0,0);
-        // Matrix4f rota = Matrix4f(Vector4f(rotat.getCol(0),0),
-        //                         Vector4f(rotat.getCol(1),0),
-        //                         Vector4f(rotat.getCol(2),0),
-        //                         Vector4f(0,0,0,1));
-        rota = m_matrixStack.top()*rota;
+            Vector4f(0, 0, 0, 1));
+        rota = m_matrixStack.top() * rota;
         camera.SetUniforms(program, rota);
         drawCylinder(6, 0.02f, V.abs());
         tranverseBones(camera, now->children[i]);
     }
     m_matrixStack.pop();
-
 }
 void SkeletalModel::drawSkeleton(const Camera &camera)
 {
@@ -248,7 +242,6 @@ void SkeletalModel::drawSkeleton(const Camera &camera)
     // drawCylinder(6, 0.02f, 0.2f);
     // m_matrixStack.pop();
 
-
     // m_matrixStack.push(Matrix4f::translation(m_rootJoint->transform.getCol(3).xyz()));
     tranverseBones(camera, m_rootJoint);
     // m_matrixStack.pop();
@@ -256,17 +249,16 @@ void SkeletalModel::drawSkeleton(const Camera &camera)
 
 void SkeletalModel::setJointTransform(int jointIndex, float rX, float rY, float rZ)
 {
-    // Set the rotation part of the joint's transformation matrix 
+    // Set the rotation part of the joint's transformation matrix
     // based on the passed in Euler angles.
     // m_joints[jointIndex]->transform =  m_joints[jointIndex]->transform
-    //                                 * Matrix4f::rotateX(rX) 
+    //                                 * Matrix4f::rotateX(rX)
     //                                 * Matrix4f::rotateY(rY)
     //                                 * Matrix4f::rotateZ(rZ);
     m_joints[jointIndex]->transform.setSubmatrix3x3(
         0,
         0,
-        Matrix3f::rotateX(rX) * Matrix3f::rotateY(rY) * Matrix3f::rotateZ(rZ)
-    );
+        Matrix3f::rotateX(rX) * Matrix3f::rotateY(rY) * Matrix3f::rotateZ(rZ));
 }
 
 void SkeletalModel::computeBindWorldToJointTransforms()
@@ -284,13 +276,13 @@ void SkeletalModel::computeBindWorldToJointTransforms()
     tranverseB2W(m_rootJoint);
 }
 
-void SkeletalModel::tranverseB2W( Joint *now)
+void SkeletalModel::tranverseB2W(Joint *now)
 {
     m_matrixStack.push(now->transform);
     now->bindWorldToJointTransform = m_matrixStack.top().inverse();
     for (int i = 0; i < now->children.size(); i++)
     {
-        tranverseB2W( now->children[i]);
+        tranverseB2W(now->children[i]);
     }
     m_matrixStack.pop();
 }
@@ -305,7 +297,18 @@ void SkeletalModel::updateCurrentJointToWorldTransforms()
     //
     // This method should update each joint's currentJointToWorldTransform.
     // You will need to add a recursive helper function to traverse the joint hierarchy.
-    
+    m_matrixStack.clear();
+    tranverseJ2W(m_rootJoint);
+}
+void SkeletalModel::tranverseJ2W(Joint *now)
+{
+    m_matrixStack.push(now->transform);
+    now->currentJointToWorldTransform = m_matrixStack.top();
+    for (int i = 0; i < now->children.size(); i++)
+    {
+        tranverseJ2W(now->children[i]);
+    }
+    m_matrixStack.pop();
 }
 
 void SkeletalModel::updateMesh()
@@ -315,4 +318,33 @@ void SkeletalModel::updateMesh()
     // given the current state of the skeleton.
     // You will need both the bind pose world --> joint transforms.
     // and the current joint --> world transforms.
+    vector<Matrix4f> JointsM;
+    for (int i = 0; i < m_joints.size(); i++)
+    {
+        Matrix4f j = (m_joints[i]->currentJointToWorldTransform * m_joints[i]->bindWorldToJointTransform);
+        JointsM.push_back(j);
+        // for (int i = 0; i < 4; i++)
+        // {
+        //     for (int ii = 0; ii < 4; ii++)
+        //     {
+        //         cout << j.getRow(i)[ii] << " ";
+        //     }
+        //     cout << endl;
+        // }
+        // cout << endl;
+    }
+
+    // cout<<"JointsM.size "<<JointsM.size()<<endl;
+    // cout<<"m_mesh.attachments "<<m_mesh.attachments[0].size()<<endl;
+    for (int i = 0; i < m_mesh.bindVertices.size(); i++)
+    {
+        Vector4f p = Vector4f(m_mesh.bindVertices[i], 1);
+        Vector4f pt;
+        for (int ii = 0; ii < m_mesh.attachments[i].size(); ii++)
+        {
+            pt = pt + m_mesh.attachments[i][ii] * JointsM[ii] * p;
+        }
+        // cout<<p[0]<<" "<<p[1]<<endl;
+        m_mesh.currentVertices[i] = pt.xyz();
+    }
 }
