@@ -2,6 +2,8 @@
 
 ## Remaining Problem:
 
+2 ways to generate rotation matrix by x,y,z axies have different effects. Why?
+
 pre-vertex normals calculation
 
 Employ OpenGL texture mapping to render parts of your model more interestingly.
