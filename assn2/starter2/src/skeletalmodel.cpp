@@ -300,6 +300,8 @@ void SkeletalModel::updateCurrentJointToWorldTransforms()
     m_matrixStack.clear();
     tranverseJ2W(m_rootJoint);
 }
+
+
 void SkeletalModel::tranverseJ2W(Joint *now)
 {
     m_matrixStack.push(now->transform);
@@ -348,3 +350,4 @@ void SkeletalModel::updateMesh()
         m_mesh.currentVertices[i] = pt.xyz();
     }
 }
+
