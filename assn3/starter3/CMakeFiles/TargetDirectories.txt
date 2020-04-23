@@ -1,0 +1,11 @@
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn3/starter3/CMakeFiles/rebuild_cache.dir
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn3/starter3/CMakeFiles/edit_cache.dir
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn3/starter3/CMakeFiles/a3.dir
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn3/starter3/3rd_party/glfw/CMakeFiles/rebuild_cache.dir
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn3/starter3/3rd_party/glfw/CMakeFiles/edit_cache.dir
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn3/starter3/3rd_party/glfw/src/CMakeFiles/rebuild_cache.dir
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn3/starter3/3rd_party/glfw/src/CMakeFiles/edit_cache.dir
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn3/starter3/3rd_party/glfw/src/CMakeFiles/glfw.dir
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn3/starter3/vecmath/CMakeFiles/rebuild_cache.dir
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn3/starter3/vecmath/CMakeFiles/edit_cache.dir
+/Users/yangguang/archive/图形学/MIT-6.836-assignment/assn3/starter3/vecmath/CMakeFiles/vecmath.dir
