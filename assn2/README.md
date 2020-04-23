@@ -1,13 +1,14 @@
 # MIT-6.836-assignment2
 
-## Remaining Problem:
-
-2 ways to generate rotation matrix by x,y,z axies have different effects. Why?
+## Done:
 
 pre-vertex normals calculation
 
-Employ OpenGL texture mapping to render parts of your model more interestingly.
+2 ways to generate rotation matrix by x,y,z axies have different effects. Because they differ in their results. ( using dividing matrix calculate method )
 
+## Remaining Problem:
+
+Employ OpenGL texture mapping to render parts of your model more interestingly.
 
 ## Maybe later, or never:
 
