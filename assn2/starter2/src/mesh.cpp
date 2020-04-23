@@ -37,7 +37,7 @@ void Mesh::load(const char *filename)
 		}
 	}
 	in.close();
-	cout << "reading done. total "<<bindVertices.size()<<" vertices." << endl;
+	cout << "Reading done. Total "<<bindVertices.size()<<" vertices." << endl;
 
 	// make a copy of the bind vertices as the current vertices
 	currentVertices = bindVertices;
